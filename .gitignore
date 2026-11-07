@@ -1,0 +1,4 @@
+__pycache__/
+*.pkl
+*.parquet
+C/C2_climate_yield_risk_submission_v1.csv

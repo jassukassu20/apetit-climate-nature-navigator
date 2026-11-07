@@ -6,13 +6,15 @@
 
 | What | Where |
 |---|---|
-| ▶ **Live demo** (no install) | Website link at the top right of this page (*About*). Or download [`docs/index.html`](docs/index.html) and open it in a browser. Click **"Take the 3-minute tour"**. |
+| ▶ **Live demo** (no install) | Website link at the top right of this page (*About*). Or download [`docs/index.html`](docs/index.html) and open it in a browser (works offline). Start on **Brief** and follow the five steps. |
 | 📊 **Pitch slides** | [`docs/Navigator_pitch_deck.pdf`](docs/Navigator_pitch_deck.pdf) |
 | 📄 **One-page method note** | [`METHOD_NOTE.md`](METHOD_NOTE.md) |
 | ✅ **CSV files for auto-scored tasks** | [`submissions/`](submissions/): A1, A2, C1, C2, D1, E |
 | 🔁 **Reproduce everything** | `pip install -r requirements.txt` then `python run_all.py /path/to/APETIT_CLIMATE_NATURE_NAVIGATOR_2026` (about 2 min, byte-identical outputs) |
 
 **Problem.** The 2025 draft report overstates Scope 3 by **314×** (kWh read as MWh, tonnes keyed as kg). The farm calculator also misses **15.8 kt** of peat-soil emissions.
+
+**Who acts on it.** A 23-farm adviser visit plan (≈470 km, 8 days from Säkylä) checks the soil behind 81 % of the peat emissions this winter, before the GHG Protocol Land Sector standard applies on 1 Jan 2027.
 
 **Approach.** Raw feeds go to an AI data-quality agent, then to clean tables, a GHG inventory and scenario models (SBTi/FLAG, NGFS, SSP, SBTN). Each module has to be approved by an expert, and every action is recorded in an audit log.
 
@@ -45,7 +47,7 @@
 | **C · Climate risk** | 40,000-draw Monte Carlo per crop/SSP on top of agro-climatic features (GDD phenology, soil-water bucket, stage-wise drought, heat at flowering, waterlogging, harvest rain, blight, pollen beetle) → per-crop LightGBM models with monotone stress constraints + farm skill + trend → 2027–31 yields, 2041–60 risk under each SSP, € shortfall cost, import emissions, FI/SE hedge and adaptation value. | `submissions/C1_*.csv`, `submissions/C2_*.csv`, `C/c3_*.csv` |
 | **D · Nature (SBTN)** | Field P and N losses → delivery to water → catchment retention, calibrated on the dev catchments and monitored loads; pressure × state priority; top-50 hotspot parcels with measures and €/kg P; D2 value-chain materiality screening including imports. | `submissions/D1_*.csv`, `D/hotspots_top50.csv`, `D/d2_materiality.csv` |
 | **E · AI copilot** | A tool-using Claude agent (inside the published app) that queries the pipeline's tables, searches the evidence index, drafts a board memo, and answers with evidence (record keys, files, standard sections). Retrieval over results and framework docs runs in the browser. An optional OpenAI-compatible LLM (Azure OpenAI in production) only phrases answers from the retrieved evidence. | `submissions/E_answers_submission.csv` |
-| **App** | `app/index.html`, a single self-contained file with no server. It has the decision brief, "Why Navigator" business case, what-if lever simulator (auto-closes the SBTi gap at least cost), DQ issue queue with accept/reject, inventory drill-down, pathway/MACC explorer, climate risk, catchment maps, copilot and a method page. Each module has a draft → approved state, and every reviewer action goes to an exportable audit log. | `app/index.html` |
+| **App** | `app/index.html`, one self-contained offline file (fonts embedded, no server). Five sections: **Brief** (one chain of decisions), **Data check** (every 2025 correction as *was → should be*, accept/reject, and a check you can run on your own purchase-line CSV in the browser), **Farms & peat** (the 23 farms that make half of farm emissions, an adviser route from Säkylä and a one-page Finnish/English farm plan with an on-site soil check), **Targets** (SBTi simulator with "find cheapest plan") and **Risk & nature**. Rejecting a correction or recording a soil check changes the inventory and FLAG figures at once. Each section stays Draft until a named reviewer approves it, and the board memo is locked until all four are approved. "Ask Navigator" answers from the pipeline's tables with sources. | `app/index.html` |
 
 ## Run it
 

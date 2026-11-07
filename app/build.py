@@ -237,8 +237,18 @@ DATA["value"] = dict(points=[
     dict(date="Dec 2027", what="SBTi near-term target submission due (24 months from commitment)", how="Targets, FLAG and lever plan with an audit trail"),
     dict(date="2028", what="EU ETS2 carbon price on fuels", how="ETS2 price credited to fuel levers in the MACC per NGFS scenario"),
   ])
-tpl = (W / "app/template.html").read_text(); pages = (W / "app/pages.js").read_text()
+import base64, sys
+sys.path.insert(0, str(W / "app"))
+from extras import extras
+DATA.update(extras(W, PKG))
+def font(fam, f, w, extra=""):
+    b = base64.b64encode((W / "app/fonts" / f).read_bytes()).decode()
+    return f"@font-face{{font-family:'{fam}';src:url(data:font/woff2;base64,{b}) format('woff2');font-weight:{w};font-display:swap;{extra}}}"
+fonts = "".join([font("Archivo", "archivo.woff2", "100 900", "font-stretch:62% 125%;"), font("Public Sans", "publicsans-400.woff2", "400"),
+                 font("Public Sans", "publicsans-600.woff2", "600 700"), font("JetBrains Mono", "jbmono-400.woff2", "400 600")])
+tpl = (W / "app/template_v2.html").read_text(); pages = (W / "app/guard_engine.js").read_text() + "\n" + (W / "app/pages_v2.js").read_text()
 js = json.dumps(DATA, default=float, separators=(",", ":")).replace("</", "<\\/")
-html = tpl.replace("/*__DATA__*/null", js).replace("/*__PAGES__*/", pages)
+html = tpl.replace("/*__FONTS__*/", fonts).replace("/*__DATA__*/null", js).replace("/*__PAGES__*/", pages)
 (W / "app/index.html").write_text(html)
+(W / "docs/index.html").write_text(html)
 print("wrote app/index.html", len(html) // 1024, "KB; kb docs", len(kb), "; climate ready", C_ok)
