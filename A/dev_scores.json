@@ -1,0 +1,148 @@
+{
+ "A1_dev_2023_2024": {
+  "score": 95.96,
+  "precision": 0.9694,
+  "recall": 0.95,
+  "f1": 0.9596,
+  "type_accuracy": 1.0,
+  "n_flagged": 196,
+  "n_true": 200,
+  "recall_by_type": {
+   "area_mismatch": 1.0,
+   "certificate_mismatch": 1.0,
+   "currency_error": 1.0,
+   "decimal_shift": 1.0,
+   "duplicate_record": 1.0,
+   "material_mismatch": 1.0,
+   "meter_spike": 1.0,
+   "missing_leg": 1.0,
+   "missing_record": 1.0,
+   "outlier_implausible": 1.0,
+   "soil_misreport": 0.697,
+   "unit_error": 1.0,
+   "wrong_gas_code": 1.0
+  }
+ },
+ "A2_dev_2023": {
+  "score": 95.91,
+  "detail": {
+   "scope1_total": {
+    "error_pct": 0.0,
+    "credit": 1.0
+   },
+   "scope2_location_total": {
+    "error_pct": 0.0,
+    "credit": 1.0
+   },
+   "scope2_market_total": {
+    "error_pct": 0.0,
+    "credit": 1.0
+   },
+   "scope3_total": {
+    "error_pct": 0.49,
+    "credit": 0.902
+   },
+   "cat01_purchased_goods_services": {
+    "error_pct": 0.53,
+    "credit": 0.893
+   },
+   "cat02_capital_goods": {
+    "error_pct": 0.0,
+    "credit": 1.0
+   },
+   "cat03_fuel_energy": {
+    "error_pct": 0.0,
+    "credit": 1.0
+   },
+   "cat04_upstream_transport": {
+    "error_pct": 0.0,
+    "credit": 1.0
+   },
+   "cat05_waste": {
+    "error_pct": 0.0,
+    "credit": 1.0
+   },
+   "cat06_business_travel": {
+    "error_pct": 0.0,
+    "credit": 0.999
+   },
+   "cat07_employee_commuting": {
+    "error_pct": 0.0,
+    "credit": 1.0
+   },
+   "cat09_downstream_transport": {
+    "error_pct": 0.0,
+    "credit": 1.0
+   },
+   "cat11_use_of_sold_products": {
+    "error_pct": 0.0,
+    "credit": 1.0
+   },
+   "cat12_end_of_life": {
+    "error_pct": 0.0,
+    "credit": 1.0
+   }
+  }
+ },
+ "A2_dev_2024": {
+  "score": 96.63,
+  "detail": {
+   "scope1_total": {
+    "error_pct": 0.0,
+    "credit": 1.0
+   },
+   "scope2_location_total": {
+    "error_pct": 0.05,
+    "credit": 0.991
+   },
+   "scope2_market_total": {
+    "error_pct": 0.49,
+    "credit": 0.902
+   },
+   "scope3_total": {
+    "error_pct": 0.26,
+    "credit": 0.949
+   },
+   "cat01_purchased_goods_services": {
+    "error_pct": 0.28,
+    "credit": 0.943
+   },
+   "cat02_capital_goods": {
+    "error_pct": 0.0,
+    "credit": 1.0
+   },
+   "cat03_fuel_energy": {
+    "error_pct": 0.01,
+    "credit": 0.998
+   },
+   "cat04_upstream_transport": {
+    "error_pct": 0.0,
+    "credit": 1.0
+   },
+   "cat05_waste": {
+    "error_pct": 0.0,
+    "credit": 1.0
+   },
+   "cat06_business_travel": {
+    "error_pct": 0.0,
+    "credit": 1.0
+   },
+   "cat07_employee_commuting": {
+    "error_pct": 0.0,
+    "credit": 1.0
+   },
+   "cat09_downstream_transport": {
+    "error_pct": 0.0,
+    "credit": 1.0
+   },
+   "cat11_use_of_sold_products": {
+    "error_pct": 0.0,
+    "credit": 1.0
+   },
+   "cat12_end_of_life": {
+    "error_pct": 0.0,
+    "credit": 1.0
+   }
+  }
+ }
+}

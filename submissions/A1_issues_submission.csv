@@ -1,0 +1,134 @@
+table,record_key,issue_type,confidence,explanation
+draft_report_summary,report:2025:total_market_based,total_mismatch,0.95,"Total 18,784,173 != scope1+scope2_market+scope3 = 72,784,173. Replace draft with the pipeline inventory."
+erp_purchase_lines,erp:5100000556:10,duplicate_record,0.95,"Same supplier F0051, material M112, quantity 328657.601464 KG and amount 95310.7 EUR as doc 4500006439 posted 5 d earlier; duplicate posting -> excluded."
+erp_purchase_lines,erp:5100000551:10,duplicate_record,0.95,"Same supplier SUP001, material M101, quantity 26088.0 KG and amount 12263.82 EUR as doc 4500006284 posted 1 d earlier; duplicate posting -> excluded."
+erp_purchase_lines,erp:5100000560:10,duplicate_record,0.95,"Same supplier SUP001, material M101, quantity 29386.0 KG and amount 13691.98 EUR as doc 4500006131 posted 1 d earlier; duplicate posting -> excluded."
+erp_purchase_lines,erp:5100000557:10,duplicate_record,0.95,"Same supplier SUP002, material M101, quantity 39221.0 KG and amount 19252.27 EUR as doc 4500006342 posted 2 d earlier; duplicate posting -> excluded."
+supplier_pcfs,pcf:SUP072:M153:2025,pcf_unit_error,0.95,PCF 847.6 declared per 'kilogram' is ~1000x the material default (0.85); value is per tonne. PCF rejected (not per declared unit); default factor used. Ask supplier to reissue.
+supplier_pcfs,pcf:SUP073:M154:2025,pcf_stale_period,0.95,PCF filed for 2025 covers reference period 2022-01-01..2023-01-01; it does not cover 2025. Rejected; default factor used. Request an updated PCF.
+erp_purchase_lines,erp:5100000558:10,duplicate_record,0.95,"Same supplier SUP003, material M101, quantity 35408.0 KG and amount 17168.29 EUR as doc 4500006251 posted 5 d earlier; duplicate posting -> excluded."
+supplier_pcfs,pcf:SUP011:M104:2025,pcf_unit_error,0.95,PCF 1409.1 declared per 'kilogram' is ~1000x the material default (1.34); value is per tonne. PCF rejected (not per declared unit); default factor used. Ask supplier to reissue.
+supplier_pcfs,pcf:SUP022:M107:2025,pcf_stale_period,0.95,PCF filed for 2025 covers reference period 2022-01-01..2023-01-01; it does not cover 2025. Rejected; default factor used. Request an updated PCF.
+supplier_pcfs,pcf:SUP023:M107:2025,pcf_stale_period,0.95,PCF filed for 2025 covers reference period 2022-01-01..2023-01-01; it does not cover 2025. Rejected; default factor used. Request an updated PCF.
+supplier_pcfs,pcf:SUP027:M121:2025,pcf_unit_error,0.95,PCF 1431.4 declared per 'kilogram' is ~1000x the material default (1.6); value is per tonne. PCF rejected (not per declared unit); default factor used. Ask supplier to reissue.
+supplier_pcfs,pcf:SUP040:M127:2025,pcf_stale_period,0.95,PCF filed for 2025 covers reference period 2022-01-01..2023-01-01; it does not cover 2025. Rejected; default factor used. Request an updated PCF.
+supplier_pcfs,pcf:SUP064:M142:2025,pcf_stale_period,0.95,PCF filed for 2025 covers reference period 2022-01-01..2023-01-01; it does not cover 2025. Rejected; default factor used. Request an updated PCF.
+farm_survey,farm_survey:FS00625,soil_misreport,0.95,"Survey says 'Mineral soil', but 100% of the farm's pea area in 2025 lies on organic soil in the soil map (88 % accurate). Drained organic soil adds ~29 t CO2/ha/yr. Expert to confirm with farmer."
+farm_survey,farm_survey:FS01343,soil_misreport,0.95,"Survey says 'Mineral soil', but 100% of the farm's pea area in 2025 lies on organic soil in the soil map (88 % accurate). Drained organic soil adds ~29 t CO2/ha/yr. Expert to confirm with farmer."
+erp_purchase_lines,erp:4500006645:10,unit_error,0.95,Unit price 1258.28 EUR/kg is 996x the M123 median for 2025; tonnes keyed with uom KG. Quantity 4.0978 -> 4097.8 kg.
+erp_purchase_lines,erp:4500006644:10,unit_error,0.95,Unit price 1157.46 EUR/kg is 916x the M123 median for 2025; tonnes keyed with uom KG. Quantity 6.2466 -> 6246.6 kg.
+erp_purchase_lines,erp:4500006704:10,unit_error,0.95,Unit price 1233.37 EUR/kg is 987x the M125 median for 2025; tonnes keyed with uom KG. Quantity 16.1321 -> 16132.1 kg.
+erp_purchase_lines,erp:4500006243:10,unit_error,0.95,Unit price 481.77 EUR/kg is 1026x the M101 median for 2025; tonnes keyed with uom KG. Quantity 34.439 -> 34439.0 kg.
+erp_purchase_lines,erp:4500006974:10,unit_error,0.95,Unit price 4985.99 EUR/kg is 950x the M140 median for 2025; tonnes keyed with uom KG. Quantity 3.6303 -> 3630.3 kg.
+erp_purchase_lines,erp:4500006028:10,unit_error,0.95,Unit price 470.00 EUR/kg is 1000x the M100 median for 2025; tonnes keyed with uom KG. Quantity 34.0618 -> 34061.8 kg.
+erp_purchase_lines,erp:4500005837:10,unit_error,0.95,Unit price 470.00 EUR/kg is 1000x the M100 median for 2025; tonnes keyed with uom KG. Quantity 32.3517 -> 32351.7 kg.
+erp_purchase_lines,erp:4500005860:10,unit_error,0.95,Unit price 470.00 EUR/kg is 1000x the M100 median for 2025; tonnes keyed with uom KG. Quantity 17.9761 -> 17976.1 kg.
+erp_purchase_lines,erp:4500006495:10,unit_error,0.95,Unit price 230.00 EUR/kg is 1000x the M111 median for 2025; tonnes keyed with uom KG. Quantity 869.9548 -> 869954.8 kg.
+erp_purchase_lines,erp:4500006594:10,unit_error,0.95,Unit price 1218.41 EUR/kg is 967x the M121 median for 2025; tonnes keyed with uom KG. Quantity 6.7476 -> 6747.6 kg.
+erp_purchase_lines,erp:4500006614:10,unit_error,0.95,Unit price 1297.99 EUR/kg is 1031x the M121 median for 2025; tonnes keyed with uom KG. Quantity 7.6883 -> 7688.3 kg.
+erp_purchase_lines,erp:4500006663:10,unit_error,0.95,Unit price 1179.06 EUR/kg is 933x the M123 median for 2025; tonnes keyed with uom KG. Quantity 3.0681 -> 3068.1 kg.
+erp_purchase_lines,erp:4500006246:10,unit_error,0.95,Unit price 481.13 EUR/kg is 1024x the M101 median for 2025; tonnes keyed with uom KG. Quantity 59.08 -> 59080.0 kg.
+erp_purchase_lines,erp:4500006677:10,unit_error,0.95,Unit price 1241.14 EUR/kg is 1009x the M124 median for 2025; tonnes keyed with uom KG. Quantity 42.1182 -> 42118.2 kg.
+travel_bookings,travel:BK100835,duplicate_record,0.95,"Same traveller EMP079, date 2025-02-14, route HEL-CPH, 1780.0 pkm, 0 nights as an earlier booking; re-imported row -> excluded."
+travel_bookings,travel:BK102762,duplicate_record,0.95,"Same traveller EMP053, date 2025-05-27, route HEL-CPH, 1780.0 pkm, 0 nights as an earlier booking; re-imported row -> excluded."
+travel_bookings,travel:BK100569,duplicate_record,0.95,"Same traveller EMP005, date 2025-06-03, route HEL-FRA, 3100.0 pkm, 1 nights as an earlier booking; re-imported row -> excluded."
+travel_bookings,travel:BK101255,duplicate_record,0.95,"Same traveller EMP065, date 2025-10-03, route HEL-MAD, 5900.0 pkm, 1 nights as an earlier booking; re-imported row -> excluded."
+travel_bookings,travel:BK101130,duplicate_record,0.95,"Same traveller EMP085, date 2025-12-01, route HEL-CPH, 1780.0 pkm, 0 nights as an earlier booking; re-imported row -> excluded."
+travel_bookings,travel:BK101486,duplicate_record,0.95,"Same traveller EMP127, date 2025-04-05, route HEL-OUL, 1040.0 pkm, 2 nights as an earlier booking; re-imported row -> excluded."
+energy_meter_readings,energy:S-HQ:2025-01:electricity,unit_error,0.95,"12,748 is 988x the usual electricity reading for month 1; kWh entered in MWh column. -> 12.748 MWh."
+energy_meter_readings,energy:S-KAN:2025-06:electricity,unit_error,0.95,"1,031,281 is 1012x the usual electricity reading for month 6; kWh entered in MWh column. -> 1031.281 MWh."
+energy_meter_readings,energy:S-SAK:2025-06:electricity,unit_error,0.95,"1,708,632 is 1012x the usual electricity reading for month 6; kWh entered in MWh column. -> 1708.632 MWh."
+farm_survey,farm_survey:FS02140,soil_misreport,0.95,"Survey says 'Mineral soil', but 100% of the farm's turnip_rape area in 2025 lies on organic soil in the soil map (88 % accurate). Drained organic soil adds ~29 t CO2/ha/yr. Expert to confirm with farmer."
+farm_survey,farm_survey:FS02092,soil_misreport,0.95,"Survey says 'Mineral soil', but 100% of the farm's turnip_rape area in 2025 lies on organic soil in the soil map (88 % accurate). Drained organic soil adds ~29 t CO2/ha/yr. Expert to confirm with farmer."
+erp_purchase_lines,erp:5100000555:10,duplicate_record,0.95,"Same supplier SUP058, material M140, quantity 3907.1 KG and amount 19923.24 EUR as doc 4500006967 posted 4 d earlier; duplicate posting -> excluded."
+erp_purchase_lines,erp:5100000559:10,duplicate_record,0.95,"Same supplier SUP003, material M101, quantity 43613.0 KG and amount 21732.56 EUR as doc 4500006272 posted 5 d earlier; duplicate posting -> excluded."
+erp_purchase_lines,erp:5100000553:10,duplicate_record,0.95,"Same supplier SUP025, material M120, quantity 16074.4 KG and amount 19045.48 EUR as doc 4500006590 posted 1 d earlier; duplicate posting -> excluded."
+erp_purchase_lines,erp:5100000554:10,duplicate_record,0.95,"Same supplier SUP043, material M130, quantity 10557.2 KG and amount 47198.02 USD as doc 4500006788 posted 5 d earlier; duplicate posting -> excluded."
+erp_purchase_lines,erp:5100000552:10,duplicate_record,0.95,"Same supplier SUP063, material M141, quantity 3063.6 KG and amount 15725.37 EUR as doc 4500007017 posted 5 d earlier; duplicate posting -> excluded."
+farm_survey,farm_survey:FS02075,area_mismatch,0.9,"Reported 10.58 ha of turnip_rape, but the parcel register's declared turnip_rape parcels sum to 17.64 ha (0.60x). Register area used."
+fuel_deliveries,fuel:FD00014,unit_error,0.9,"40.271 l is 786x below the median diesel delivery (31,673 l); m3 keyed as litres -> 40,271 l."
+fuel_deliveries,fuel:FD00044,unit_error,0.9,"29.483 l is 583x below the median light_fuel_oil delivery (17,190 l); m3 keyed as litres -> 29,483 l."
+waste_transfer_notes,waste:WT000964,unit_error,0.9,"6.1502 kg of plastic_waste is 1231x below the monthly median (7,570 kg); tonnes keyed as kg -> 6,150.2 kg."
+refrigerant_service_log,refrigerant:RS00080,unit_error,0.9,85150.0 kg added is 1697x the system median (50.2 kg); grams in kg column -> 85.15 kg.
+waste_transfer_notes,waste:WT000966,unit_error,0.9,"7.0746 kg of plastic_waste is 1070x below the monthly median (7,570 kg); tonnes keyed as kg -> 7,074.6 kg."
+goo_cancellations,goo:S-PUD:2025,certificate_mismatch,0.9,Internal GoO log disagrees with the authoritative registry statement: log vintage 2023 vs registry production period(s) [np.int64(2025)]. Registry values used.
+goo_cancellations,goo:S-BJU:2025,certificate_mismatch,0.9,"Internal GoO log disagrees with the authoritative registry statement: log 4,460 MWh vs registry 372 MWh. Registry values used."
+waste_transfer_notes,waste:WT000933,unit_error,0.9,"30.4329 kg of cardboard is 781x below the monthly median (23,776 kg); tonnes keyed as kg -> 30,432.9 kg."
+energy_meter_readings,energy:S-SAK:2025-10:biogas,missing_record,0.9,No biogas reading for S-SAK 2025-10 while 11 other months exist; gap-filled from the seasonal profile.
+farm_survey,farm_survey:FS02132,area_mismatch,0.9,"Reported 84.91 ha of turnip_rape, but the parcel register's declared turnip_rape parcels sum to 53.08 ha (1.60x). Register area used."
+energy_meter_readings,energy:S-KAN:2025-06:oilseed_sidestream,missing_record,0.9,No oilseed_sidestream reading for S-KAN 2025-06 while 11 other months exist; gap-filled from the seasonal profile.
+farm_survey,farm_survey:FS02394,area_mismatch,0.9,"Reported 100.58 ha of turnip_rape, but the parcel register's declared turnip_rape parcels sum to 62.86 ha (1.60x). Register area used."
+farm_survey,farm_survey:FS00575,soil_misreport,0.9,"Survey says 'Mineral soil', but 80% of the farm's pea area in 2025 lies on organic soil in the soil map (88 % accurate). Drained organic soil adds ~29 t CO2/ha/yr. Expert to confirm with farmer."
+farm_survey,farm_survey:FS00009,area_mismatch,0.9,"Reported 12.56 ha of pea, but the parcel register's declared pea parcels sum to 9.31 ha (1.35x). Register area used."
+farm_survey,farm_survey:FS01851,area_mismatch,0.9,"Reported 25.92 ha of turnip_rape, but the parcel register's declared turnip_rape parcels sum to 19.21 ha (1.35x). Register area used."
+farm_survey,farm_survey:FS00375,area_mismatch,0.9,"Reported 20.86 ha of pea, but the parcel register's declared pea parcels sum to 15.45 ha (1.35x). Register area used."
+farm_survey,farm_survey:FS00251,area_mismatch,0.9,"Reported 21.13 ha of pea, but the parcel register's declared pea parcels sum to 15.65 ha (1.35x). Register area used."
+farm_survey,farm_survey:FS02964,area_mismatch,0.9,"Reported 6.0 ha of turnip_rape, but the parcel register's declared turnip_rape parcels sum to 10.00 ha (0.60x). Register area used."
+farm_registry,farm:F0028,coordinate_swap,0.9,"Farm centre (21.9413, 61.11341) lies outside the FI_SW sourcing area; latitude and longitude swapped."
+farm_registry,farm:F0180,coordinate_swap,0.9,"Farm centre (23.16414, 60.89255) lies outside the FI_SW sourcing area; latitude and longitude swapped."
+farm_registry,farm:F0223,coordinate_swap,0.9,"Farm centre (23.62987, 60.74543) lies outside the FI_SW sourcing area; latitude and longitude swapped."
+farm_survey,farm_survey:FS00940,area_mismatch,0.9,"Reported 15.89 ha of pea, but the parcel register's declared pea parcels sum to 11.77 ha (1.35x). Register area used."
+farm_survey,farm_survey:FS00993,area_mismatch,0.9,"Reported 15.15 ha of pea, but the parcel register's declared pea parcels sum to 11.22 ha (1.35x). Register area used."
+farm_survey,farm_survey:FS02612,area_mismatch,0.9,"Reported 27.04 ha of turnip_rape, but the parcel register's declared turnip_rape parcels sum to 20.03 ha (1.35x). Register area used."
+energy_meter_readings,energy:S-KAN:2025-07:wood_chips,missing_record,0.9,No wood_chips reading for S-KAN 2025-07 while 11 other months exist; gap-filled from the seasonal profile.
+farm_survey,farm_survey:FS01991,soil_misreport,0.88,"Survey says 'Mineral soil', but 76% of the farm's turnip_rape area in 2025 lies on organic soil in the soil map (88 % accurate). Drained organic soil adds ~29 t CO2/ha/yr. Expert to confirm with farmer."
+farm_survey,farm_survey:FS03332,soil_misreport,0.86,"Survey says 'Mineral soil', but 72% of the farm's turnip_rape area in 2025 lies on organic soil in the soil map (88 % accurate). Drained organic soil adds ~29 t CO2/ha/yr. Expert to confirm with farmer."
+erp_purchase_lines,erp:4500006579:10,material_mismatch,0.85,"Supplier SUP026 only supplies M120 (Sweetcorn, frozen) per supplier master, but line is coded M126 (Vegetable mix components, imported). Recoded to M120."
+erp_purchase_lines,erp:4500007065:10,material_mismatch,0.85,"Supplier SUP068 only supplies M150 (PET preforms / bottles) per supplier master, but line is coded M154 (Labels). Recoded to M150."
+erp_purchase_lines,erp:4500006803:10,material_mismatch,0.85,"Supplier SUP045 only supplies M131 (Tomato sauce (pizza)) per supplier master, but line is coded M126 (Vegetable mix components, imported). Recoded to M131."
+erp_purchase_lines,erp:4500007115:10,material_mismatch,0.85,"Supplier SUP071 only supplies M152 (Packaging film PE/PP) per supplier master, but line is coded M153 (Corrugated board / cartons). Recoded to M152."
+erp_purchase_lines,erp:4500006858:10,material_mismatch,0.85,"Supplier SUP049 only supplies M133 (Cheese for pizza) per supplier master, but line is coded M135 (Wheat flour). Recoded to M133."
+erp_purchase_lines,erp:4500006871:10,material_mismatch,0.85,"Supplier SUP051 only supplies M134 (Cooked ham dices) per supplier master, but line is coded M135 (Wheat flour). Recoded to M134."
+farm_survey,farm_survey:FS00932,outlier_implausible,0.85,Yield 31.9 t/ha is 9.7x the pea median (3.28); likely decimal slip -> 3.19. Expert to confirm.
+commuting_survey,commute:CS0130,mode_mislabel,0.85,Mode 'henkilöauto' is not a canonical code; mapped to 'car'.
+farm_survey,farm_survey:FS01912,outlier_implausible,0.85,Yield 15.7 t/ha is 10.7x the turnip_rape median (1.47); likely decimal slip -> 1.57. Expert to confirm.
+shipments,ship:4500006935:EF-TKM-SHIP-REEFER,missing_leg,0.85,"Import lot 4500006935 (M137, origin GLO) has only a road leg; all other lots of this material also have a EF-TKM-SHIP-REEFER leg. Imputed 13.8 t x 9,000 km = 124,047 tkm."
+commuting_survey,commute:CS0182,mode_mislabel,0.85,Mode 'henkilöauto' is not a canonical code; mapped to 'car'.
+commuting_survey,commute:CS0206,mode_mislabel,0.85,Mode 'auto' is not a canonical code; mapped to 'car'.
+commuting_survey,commute:CS0106,mode_mislabel,0.85,Mode 'Car' is not a canonical code; mapped to 'car'.
+erp_purchase_lines,erp:4500007105:10,decimal_shift,0.85,Unit price is 0.10x the M151 median; decimal point shifted. Quantity 67317.0 -> 6731.7.
+erp_purchase_lines,erp:4500006016:10,decimal_shift,0.85,Unit price is 10.00x the M100 median; decimal point shifted. Quantity 616.476 -> 6164.8.
+erp_purchase_lines,erp:4500006547:10,decimal_shift,0.85,Unit price is 10.00x the M111 median; decimal point shifted. Quantity 224865.735 -> 2248657.3.
+erp_purchase_lines,erp:4500006116:10,decimal_shift,0.85,Unit price is 9.85x the M101 median; decimal point shifted. Quantity 2883.0 -> 28830.0.
+erp_purchase_lines,erp:4500006126:10,decimal_shift,0.85,Unit price is 0.10x the M101 median; decimal point shifted. Quantity 666710.0 -> 66671.0.
+commuting_survey,commute:CS0044,mode_mislabel,0.85,Mode 'Car' is not a canonical code; mapped to 'car'.
+commuting_survey,commute:CS0061,mode_mislabel,0.85,Mode 'linja-auto' is not a canonical code; mapped to 'bus'.
+commuting_survey,commute:CS0107,mode_mislabel,0.85,Mode 'Car' is not a canonical code; mapped to 'car'.
+farm_survey,farm_survey:FS02104,outlier_implausible,0.85,Yield 11.8 t/ha is 8.0x the turnip_rape median (1.47); likely decimal slip -> 1.18. Expert to confirm.
+commuting_survey,commute:CS0030,mode_mislabel,0.85,Mode 'Car' is not a canonical code; mapped to 'car'.
+shipments,ship:4500007014:EF-TKM-SHIP-REEFER,missing_leg,0.85,"Import lot 4500007014 (M141, origin FO) has only a road leg; all other lots of this material also have a EF-TKM-SHIP-REEFER leg. Imputed 4.1 t x 1,900 km = 7,739 tkm."
+shipments,ship:4500006790:EF-TKM-SHIP-REEFER,missing_leg,0.85,"Import lot 4500006790 (M130, origin CN) has only a road leg; all other lots of this material also have a EF-TKM-SHIP-REEFER leg. Imputed 9.3 t x 20,500 km = 191,347 tkm."
+shipments,ship:4500006928:EF-TKM-SHIP-REEFER,missing_leg,0.85,"Import lot 4500006928 (M137, origin GLO) has only a road leg; all other lots of this material also have a EF-TKM-SHIP-REEFER leg. Imputed 11.1 t x 9,000 km = 100,179 tkm."
+erp_purchase_lines,erp:4500006748:10,decimal_shift,0.85,Unit price is 9.71x the M127 median; decimal point shifted. Quantity 990.61 -> 9906.1.
+refrigerant_service_log,refrigerant:RS00078,wrong_gas_code,0.85,System 'Spiral freezer aux.' at S-SAK is serviced with R449A in all other events; this event says R717_ammonia. Recoded to R449A (GWP 1504).
+farm_survey,farm_survey:FS02059,outlier_implausible,0.85,Yield 12.4 t/ha is 8.4x the turnip_rape median (1.47); likely decimal slip -> 1.24. Expert to confirm.
+farm_survey,farm_survey:FS01805,soil_misreport,0.84,"Survey says 'Mineral soil', but 68% of the farm's turnip_rape area in 2025 lies on organic soil in the soil map (88 % accurate). Drained organic soil adds ~29 t CO2/ha/yr. Expert to confirm with farmer."
+farm_survey,farm_survey:FS01718,soil_misreport,0.81,"Survey says 'Mineral soil', but 62% of the farm's turnip_rape area in 2025 lies on organic soil in the soil map (88 % accurate). Drained organic soil adds ~29 t CO2/ha/yr. Expert to confirm with farmer."
+farm_survey,farm_survey:FS01570,decimal_shift,0.8,Mineral N 8.0 kg/ha is 0.08x the turnip_rape norm (95); decimal shift -> 80.0.
+farm_survey,farm_survey:FS00325,decimal_shift,0.8,Mineral N 230.0 kg/ha is 9.20x the pea norm (25); decimal shift -> 23.0.
+farm_survey,farm_survey:FS00052,decimal_shift,0.8,Mineral N 1503.0 kg/ha is 11.56x the spinach norm (130); decimal shift -> 150.3.
+erp_purchase_lines,erp:4500006712:10,currency_error,0.8,Supplier SUP036 invoices in USD on all other lines; this line says EUR. Amount reinterpreted as USD.
+erp_purchase_lines,erp:4500006706:10,currency_error,0.8,Supplier SUP036 invoices in USD on all other lines; this line says EUR. Amount reinterpreted as USD.
+erp_purchase_lines,erp:4500007111:10,currency_error,0.8,Supplier SUP071 invoices in SEK on all other lines; this line says EUR. Amount reinterpreted as SEK.
+erp_purchase_lines,erp:4500007109:10,currency_error,0.8,Supplier SUP071 invoices in SEK on all other lines; this line says EUR. Amount reinterpreted as SEK.
+erp_purchase_lines,erp:4500006701:10,currency_error,0.8,Supplier SUP037 invoices in USD on all other lines; this line says EUR. Amount reinterpreted as USD.
+energy_meter_readings,energy:S-KAN:2025-04:oilseed_sidestream,meter_spike,0.8,"1,052.1 MWh is 3.0x the same month in other years (median 353.8); meter spike. Replaced with same-month median scaled to the year level."
+commuting_survey,commute:CS0063,unit_error,0.8,One-way distance 56300.0 km is implausible for a daily commute; metres entered as km -> 56.3 km.
+commuting_survey,commute:CS0007,unit_error,0.8,One-way distance 37600.0 km is implausible for a daily commute; metres entered as km -> 37.6 km.
+farm_survey,farm_survey:FS03386,decimal_shift,0.8,Mineral N 9.5 kg/ha is 0.10x the turnip_rape norm (95); decimal shift -> 95.0.
+farm_survey,farm_survey:FS03212,decimal_shift,0.8,Mineral N 992.0 kg/ha is 10.44x the turnip_rape norm (95); decimal shift -> 99.2.
+erp_purchase_lines,erp:4500006787:10,currency_error,0.8,Supplier SUP043 invoices in USD on all other lines; this line says EUR. Amount reinterpreted as USD.
+commuting_survey,commute:CS0078,unit_error,0.8,One-way distance 14000.0 km is implausible for a daily commute; metres entered as km -> 14.0 km.
+commuting_survey,commute:CS0003,unit_error,0.8,One-way distance 25300.0 km is implausible for a daily commute; metres entered as km -> 25.3 km.
+commuting_survey,commute:CS0086,unit_error,0.8,One-way distance 11500.0 km is implausible for a daily commute; metres entered as km -> 11.5 km.
+farm_survey,farm_survey:FS00235,soil_misreport,0.78,"Survey says 'Mineral soil', but 56% of the farm's pea area in 2025 lies on organic soil in the soil map (88 % accurate). Drained organic soil adds ~29 t CO2/ha/yr. Expert to confirm with farmer."
+farm_survey,farm_survey:FS02200,soil_misreport,0.78,"Survey says 'Mineral soil', but 55% of the farm's turnip_rape area in 2025 lies on organic soil in the soil map (88 % accurate). Drained organic soil adds ~29 t CO2/ha/yr. Expert to confirm with farmer."
+farm_survey,farm_survey:FS03201,soil_misreport,0.76,"Survey says 'Mineral soil', but 53% of the farm's turnip_rape area in 2025 lies on organic soil in the soil map (88 % accurate). Drained organic soil adds ~29 t CO2/ha/yr. Expert to confirm with farmer."
+farm_survey,farm_survey:FS01444,soil_misreport,0.75,"Survey says 'Mineral soil', but 49% of the farm's turnip_rape area in 2025 lies on organic soil in the soil map (88 % accurate). Drained organic soil adds ~29 t CO2/ha/yr. Expert to confirm with farmer."
+erp_purchase_lines,erp:4500007277:10,currency_error,0.75,"Spend 5,136,956 is 15.4x the M903 median; consistent with SEK booked as EUR (x11.4). Converted to 450,610 EUR."
+erp_purchase_lines,erp:4500007256:10,currency_error,0.75,"Spend 4,946,050 is 10.5x the M901 median; consistent with SEK booked as EUR (x11.4). Converted to 433,864 EUR."
+erp_purchase_lines,erp:4500007240:10,currency_error,0.75,"Spend 7,610,592 is 12.9x the M900 median; consistent with SEK booked as EUR (x11.4). Converted to 667,596 EUR."
+farm_survey,farm_survey:FS01783,soil_misreport,0.7,"Survey says 'Mineral soil', but 40% of the farm's turnip_rape area in 2025 lies on organic soil in the soil map (88 % accurate). Drained organic soil adds ~29 t CO2/ha/yr. Expert to confirm with farmer."
+farm_survey,farm_survey:FS02840,soil_misreport,0.68,"Survey says 'Mineral soil', but 37% of the farm's turnip_rape area in 2025 lies on organic soil in the soil map (88 % accurate). Drained organic soil adds ~29 t CO2/ha/yr. Expert to confirm with farmer."
+farm_survey,farm_survey:FS00156,soil_misreport,0.68,"Survey says 'Mineral soil', but 36% of the farm's pea area in 2025 lies on organic soil in the soil map (88 % accurate). Drained organic soil adds ~29 t CO2/ha/yr. Expert to confirm with farmer."
+farm_survey,farm_survey:FS00507,soil_misreport,0.66,"Survey says 'Mineral soil', but 32% of the farm's pea area in 2025 lies on organic soil in the soil map (88 % accurate). Drained organic soil adds ~29 t CO2/ha/yr. Expert to confirm with farmer."

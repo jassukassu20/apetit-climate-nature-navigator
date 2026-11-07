@@ -1,0 +1,20 @@
+scope,category,tco2e,method_note
+scope1,fugitive_refrigerants,908.35,kg top-up x AR6 GWP100; gas-code and g/kg fixes applied
+scope1,stationary_and_mobile_combustion,3505.59,fuel MWh (NCV; deliveries - stock change) x fossil EF; m3/l fixes
+scope2_location,purchased_electricity,962.56,"meter MWh (kWh/spike/gap corrected) x grid avg (LB) | uncovered MWh x residual mix (MB), registry GoOs"
+scope2_market,purchased_electricity,60.9,"meter MWh (kWh/spike/gap corrected) x grid avg (LB) | uncovered MWh x residual mix (MB), registry GoOs"
+scope3,cat01_purchased_goods_services,206929.43,"ERP kg x valid PACT PCF or library EF; contract farms: survey footprint incl. organic soils (soil map, calibrated); spend x EEIO"
+scope3,cat02_capital_goods,2866.61,capex spend x EEIO (SEK line reconciled to capex register)
+scope3,cat03_fuel_energy,1517.63,fuel MWh x WTT + electricity MWh x upstream/T&D + heat upstream
+scope3,cat04_upstream_transport,4720.06,inbound tkm x GLEC WTW; missing sea legs imputed
+scope3,cat05_waste,2716.49,waste t x treatment EF (t/kg fixes) + wastewater m3
+scope3,cat06_business_travel,148.26,pkm x EF + hotel nights; re-imported bookings removed
+scope3,cat07_employee_commuting,324.83,"2025 survey mean (modes normalised, m->km fixed) x headcount"
+scope3,cat09_downstream_transport,5018.48,outbound tkm x EF + frozen pallet-days
+scope3,cat11_use_of_sold_products,1797.73,freezer + cooking kWh x market grid (method choice; Apetit sample uses a different basis)
+scope3,cat12_end_of_life,1971.65,packaging put on market x Finnish treatment mix
+total,scope1_total,4413.93,sum of lines
+total,scope2_location_total,962.56,sum of lines
+total,scope2_market_total,60.9,sum of lines
+total,scope3_total,228011.18,sum of lines
+memo,biogenic_co2_scope1,12877.55,biogenic CO2 memo (not in Scope 1)

@@ -1,0 +1,191 @@
+year,scope,category,line_item,tco2e,basis,factor_source,n_source_records
+2025,scope1,stationary_and_mobile_combustion,FLEET:diesel,189.9015773094,fuel MWh x fossil EF,fuel MWh x fossil EF,
+2025,scope1,stationary_and_mobile_combustion,S-BJU:natural_gas,122.54899999999999,fuel MWh x fossil EF,fuel MWh x fossil EF,
+2025,scope1,stationary_and_mobile_combustion,S-KAN:light_fuel_oil,613.6413366679999,fuel MWh x fossil EF,fuel MWh x fossil EF,
+2025,scope1,stationary_and_mobile_combustion,S-KAN:oilseed_sidestream,0.0,fuel MWh x fossil EF,fuel MWh x fossil EF,
+2025,scope1,stationary_and_mobile_combustion,S-KAN:wood_chips,0.0,fuel MWh x fossil EF,fuel MWh x fossil EF,
+2025,scope1,stationary_and_mobile_combustion,S-PUD:lpg,478.88224256000007,fuel MWh x fossil EF,fuel MWh x fossil EF,
+2025,scope1,stationary_and_mobile_combustion,S-SAK:biogas,0.0,fuel MWh x fossil EF,fuel MWh x fossil EF,
+2025,scope1,stationary_and_mobile_combustion,S-SAK:lng,1493.25388245,fuel MWh x fossil EF,fuel MWh x fossil EF,
+2025,scope1,stationary_and_mobile_combustion,S-SAK:lpg,607.35700992,fuel MWh x fossil EF,fuel MWh x fossil EF,
+2025,scope1,fugitive_refrigerants,S-BJU:R744_co2,0.00514,kg top-up x GWP100,kg top-up x GWP100,
+2025,scope1,fugitive_refrigerants,S-HQ:R410A,5.324160000000001,kg top-up x GWP100,kg top-up x GWP100,
+2025,scope1,fugitive_refrigerants,S-KAN:R134a,27.279899999999998,kg top-up x GWP100,kg top-up x GWP100,
+2025,scope1,fugitive_refrigerants,S-PUD:R449A,128.06560000000002,kg top-up x GWP100,kg top-up x GWP100,
+2025,scope1,fugitive_refrigerants,S-SAK:R404A,706.5523199999999,kg top-up x GWP100,kg top-up x GWP100,
+2025,scope1,fugitive_refrigerants,S-SAK:R449A,41.11936,kg top-up x GWP100,kg top-up x GWP100,
+2025,scope1,fugitive_refrigerants,S-SAK:R717_ammonia,0.0,kg top-up x GWP100,kg top-up x GWP100,
+2025,scope2_location,purchased_electricity,S-BJU,4.464,MWh x grid average,MWh x grid average,
+2025,scope2_market,purchased_electricity,S-BJU,0.0,uncovered MWh x residual mix,uncovered MWh x residual mix,
+2025,scope2_location,purchased_electricity,S-HQ,3.9,MWh x grid average,MWh x grid average,
+2025,scope2_market,purchased_electricity,S-HQ,60.900000000000006,uncovered MWh x residual mix,uncovered MWh x residual mix,
+2025,scope2_location,purchased_electricity,S-KAN,324.99994799999996,MWh x grid average,MWh x grid average,
+2025,scope2_market,purchased_electricity,S-KAN,0.0,uncovered MWh x residual mix,uncovered MWh x residual mix,
+2025,scope2_location,purchased_electricity,S-PUD,57.199999999999996,MWh x grid average,MWh x grid average,
+2025,scope2_market,purchased_electricity,S-PUD,0.0,uncovered MWh x residual mix,uncovered MWh x residual mix,
+2025,scope2_location,purchased_electricity,S-SAK,572.0,MWh x grid average,MWh x grid average,
+2025,scope2_market,purchased_electricity,S-SAK,0.0,uncovered MWh x residual mix,uncovered MWh x residual mix,
+2025,scope3,cat01_purchased_goods,M101:SUP001,5413.8506560999995,EF-RAP-FI,"EF-RAP-FI: Turnip rape/rapeseed, at farm gate, Finland (regional average) (Luke / Finnish LCA studies; calibrated_synthetic)",126.0
+2025,scope3,cat01_purchased_goods,M101:SUP002,6080.7266327554,supplier PCF (PACT),supplier PCF (PACT),145.0
+2025,scope3,cat01_purchased_goods,M101:SUP003,2277.7316136,supplier PCF (PACT),supplier PCF (PACT),52.0
+2025,scope3,cat01_purchased_goods,M102:SUP004,10183.40552,EF-RAP-EE,"EF-RAP-EE: Rapeseed, at farm gate, Estonia (Agri-footprint / national LCA studies; calibrated_synthetic)",2.0
+2025,scope3,cat01_purchased_goods,M102:SUP005,23869.1672176,supplier PCF (PACT),supplier PCF (PACT),6.0
+2025,scope3,cat01_purchased_goods,M103:SUP007,15214.673600000002,EF-RAP-LV,"EF-RAP-LV: Rapeseed, at farm gate, Latvia (Agri-footprint / national LCA studies; calibrated_synthetic)",3.0
+2025,scope3,cat01_purchased_goods,M103:SUP008,14249.48397,supplier PCF (PACT),supplier PCF (PACT),4.0
+2025,scope3,cat01_purchased_goods,M104:SUP010,17019.415040000004,EF-RAP-LT,"EF-RAP-LT: Rapeseed, at farm gate, Lithuania (Agri-footprint / national LCA studies; calibrated_synthetic)",4.0
+2025,scope3,cat01_purchased_goods,M104:SUP011,12754.141440000001,EF-RAP-LT,"EF-RAP-LT: Rapeseed, at farm gate, Lithuania (Agri-footprint / national LCA studies; calibrated_synthetic)",3.0
+2025,scope3,cat01_purchased_goods,M105:SUP012,2851.9848,EF-RAP-SE,"EF-RAP-SE: Rapeseed, at farm gate, Sweden (Agri-footprint / national LCA studies; calibrated_synthetic)",1.0
+2025,scope3,cat01_purchased_goods,M105:SUP013,4104.50985,EF-RAP-SE,"EF-RAP-SE: Rapeseed, at farm gate, Sweden (Agri-footprint / national LCA studies; calibrated_synthetic)",1.0
+2025,scope3,cat01_purchased_goods,M105:SUP014,2278.3068000000003,EF-RAP-SE,"EF-RAP-SE: Rapeseed, at farm gate, Sweden (Agri-footprint / national LCA studies; calibrated_synthetic)",1.0
+2025,scope3,cat01_purchased_goods,M106:SUP018,2680.681612,supplier PCF (PACT),supplier PCF (PACT),1.0
+2025,scope3,cat01_purchased_goods,M106:SUP019,4696.487040000001,EF-RAP-DK,"EF-RAP-DK: Rapeseed, at farm gate, Denmark (Agri-footprint / national LCA studies; calibrated_synthetic)",1.0
+2025,scope3,cat01_purchased_goods,M107:SUP020,5050.9240199999995,EF-RAP-PL,"EF-RAP-PL: Rapeseed, at farm gate, Poland (Agri-footprint / national LCA studies; calibrated_synthetic)",1.0
+2025,scope3,cat01_purchased_goods,M107:SUP022,3096.46874,EF-RAP-PL,"EF-RAP-PL: Rapeseed, at farm gate, Poland (Agri-footprint / national LCA studies; calibrated_synthetic)",1.0
+2025,scope3,cat01_purchased_goods,M107:SUP023,4693.38024,EF-RAP-PL,"EF-RAP-PL: Rapeseed, at farm gate, Poland (Agri-footprint / national LCA studies; calibrated_synthetic)",1.0
+2025,scope3,cat01_purchased_goods,M120:SUP024,215.7657,EF-FROZ-CORN-HU,"EF-FROZ-CORN-HU: Sweetcorn, frozen, Hungary (Apetit sample data; partner_supplied)",12.0
+2025,scope3,cat01_purchased_goods,M120:SUP025,231.43769999999998,EF-FROZ-CORN-HU,"EF-FROZ-CORN-HU: Sweetcorn, frozen, Hungary (Apetit sample data; partner_supplied)",12.0
+2025,scope3,cat01_purchased_goods,M120:SUP026,319.82415000000003,EF-FROZ-CORN-HU,"EF-FROZ-CORN-HU: Sweetcorn, frozen, Hungary (Apetit sample data; partner_supplied)",12.0
+2025,scope3,cat01_purchased_goods,M121:SUP027,123.95183999999999,EF-FROZ-CHICK-BE,"EF-FROZ-CHICK-BE: Chickpea, frozen, Belgium (mixed origins) (Apetit sample data; partner_supplied)",12.0
+2025,scope3,cat01_purchased_goods,M121:SUP028,44.850880000000004,EF-FROZ-CHICK-BE,"EF-FROZ-CHICK-BE: Chickpea, frozen, Belgium (mixed origins) (Apetit sample data; partner_supplied)",12.0
+2025,scope3,cat01_purchased_goods,M122:SUP029,201.70098000000002,EF-FROZ-CAUL-NL,"EF-FROZ-CAUL-NL: Cauliflower, frozen, Netherlands (Apetit sample data; partner_supplied)",12.0
+2025,scope3,cat01_purchased_goods,M122:SUP030,298.08036000000004,EF-FROZ-CAUL-NL,"EF-FROZ-CAUL-NL: Cauliflower, frozen, Netherlands (Apetit sample data; partner_supplied)",12.0
+2025,scope3,cat01_purchased_goods,M123:SUP031,107.46373277999999,supplier PCF (PACT),supplier PCF (PACT),12.0
+2025,scope3,cat01_purchased_goods,M123:SUP032,67.2923484255,supplier PCF (PACT),supplier PCF (PACT),13.0
+2025,scope3,cat01_purchased_goods,M124:SUP033,259.7796,EF-FROZ-ONION-BE,"EF-FROZ-ONION-BE: Onion dices 8 mm pre-fried, frozen, Belgium (Apetit sample data; partner_supplied)",12.0
+2025,scope3,cat01_purchased_goods,M124:SUP034,380.71242000000007,EF-FROZ-ONION-BE,"EF-FROZ-ONION-BE: Onion dices 8 mm pre-fried, frozen, Belgium (Apetit sample data; partner_supplied)",12.0
+2025,scope3,cat01_purchased_goods,M124:SUP035,372.7188,EF-FROZ-ONION-BE,"EF-FROZ-ONION-BE: Onion dices 8 mm pre-fried, frozen, Belgium (Apetit sample data; partner_supplied)",12.0
+2025,scope3,cat01_purchased_goods,M125:SUP036,351.93834000000004,EF-FROZ-BROC-EC,"EF-FROZ-BROC-EC: Broccoli florets, frozen, Ecuador (Apetit sample data; partner_supplied)",12.0
+2025,scope3,cat01_purchased_goods,M125:SUP037,404.85275999999993,EF-FROZ-BROC-EC,"EF-FROZ-BROC-EC: Broccoli florets, frozen, Ecuador (Apetit sample data; partner_supplied)",12.0
+2025,scope3,cat01_purchased_goods,M126:SUP038,1682.79336,EF-FROZ-CAUL-NL,"EF-FROZ-CAUL-NL: Cauliflower, frozen, Netherlands (Apetit sample data; partner_supplied)",12.0
+2025,scope3,cat01_purchased_goods,M126:SUP039,1132.06419,EF-FROZ-CAUL-NL,"EF-FROZ-CAUL-NL: Cauliflower, frozen, Netherlands (Apetit sample data; partner_supplied)",12.0
+2025,scope3,cat01_purchased_goods,M127:SUP040,39.826280000000004,EF-FABA-FI,"EF-FABA-FI: Faba bean, Finland (Luke / Finnish LCA studies; calibrated_synthetic)",12.0
+2025,scope3,cat01_purchased_goods,M127:SUP041,48.57244,EF-FABA-FI,"EF-FABA-FI: Faba bean, Finland (Luke / Finnish LCA studies; calibrated_synthetic)",12.0
+2025,scope3,cat01_purchased_goods,M127:SUP042,16.422840000000004,EF-FABA-FI,"EF-FABA-FI: Faba bean, Finland (Luke / Finnish LCA studies; calibrated_synthetic)",12.0
+2025,scope3,cat01_purchased_goods,M130:SUP043,451.68910844260006,supplier PCF (PACT),supplier PCF (PACT),13.0
+2025,scope3,cat01_purchased_goods,M131:SUP044,1181.0915,EF-TOMSAUCE-ES,"EF-TOMSAUCE-ES: Tomato sauce (pizza), Spain (Apetit sample data; partner_supplied)",12.0
+2025,scope3,cat01_purchased_goods,M131:SUP045,1024.55975,EF-TOMSAUCE-ES,"EF-TOMSAUCE-ES: Tomato sauce (pizza), Spain (Apetit sample data; partner_supplied)",12.0
+2025,scope3,cat01_purchased_goods,M132:SUP046,205.7805,EF-MILKPOW-FI,"EF-MILKPOW-FI: Milk powder 26 % fat, Finland (Apetit sample data; partner_supplied)",12.0
+2025,scope3,cat01_purchased_goods,M132:SUP047,370.16513234999996,supplier PCF (PACT),supplier PCF (PACT),12.0
+2025,scope3,cat01_purchased_goods,M132:SUP048,269.39547000000005,EF-MILKPOW-FI,"EF-MILKPOW-FI: Milk powder 26 % fat, Finland (Apetit sample data; partner_supplied)",12.0
+2025,scope3,cat01_purchased_goods,M133:SUP049,13299.61384,EF-CHEESE-EU,"EF-CHEESE-EU: Cheese (mozzarella/edam type), EU (Agribalyse-style dairy; calibrated_synthetic)",12.0
+2025,scope3,cat01_purchased_goods,M134:SUP050,1409.9407,EF-HAM-EU,"EF-HAM-EU: Cured/cooked pork ham, EU (Agribalyse-style meat; calibrated_synthetic)",12.0
+2025,scope3,cat01_purchased_goods,M134:SUP051,1715.14014,EF-HAM-EU,"EF-HAM-EU: Cured/cooked pork ham, EU (Agribalyse-style meat; calibrated_synthetic)",12.0
+2025,scope3,cat01_purchased_goods,M135:SUP052,855.9296581300001,supplier PCF (PACT),supplier PCF (PACT),12.0
+2025,scope3,cat01_purchased_goods,M135:SUP053,744.8573979999999,EF-FLOUR-FI,"EF-FLOUR-FI: Wheat flour, Finland (Luke / Finnish LCA studies; calibrated_synthetic)",12.0
+2025,scope3,cat01_purchased_goods,M136:SUP054,246.86509,EF-VEGOIL-SUN-EU,"EF-VEGOIL-SUN-EU: Sunflower oil, EU (Agribalyse-style; calibrated_synthetic)",12.0
+2025,scope3,cat01_purchased_goods,M137:SUP055,546.14436,EF-SPICE-MIX,"EF-SPICE-MIX: Spices and seasonings, mixed origin (Agribalyse-style; calibrated_synthetic)",12.0
+2025,scope3,cat01_purchased_goods,M138:SUP056,10.87119,EF-SUGAR-FI,"EF-SUGAR-FI: Sugar, beet, Finland (Finnish LCA studies; calibrated_synthetic)",12.0
+2025,scope3,cat01_purchased_goods,M138:SUP057,22.347050000000003,EF-SUGAR-FI,"EF-SUGAR-FI: Sugar, beet, Finland (Finnish LCA studies; calibrated_synthetic)",12.0
+2025,scope3,cat01_purchased_goods,M140:SUP058,282.44244,EF-SALMON-NO,"EF-SALMON-NO: Salmon mince block, frozen, Norway (Apetit sample data; partner_supplied)",12.0
+2025,scope3,cat01_purchased_goods,M140:SUP059,212.54986000000002,EF-SALMON-NO,"EF-SALMON-NO: Salmon mince block, frozen, Norway (Apetit sample data; partner_supplied)",12.0
+2025,scope3,cat01_purchased_goods,M140:SUP060,413.0454300000001,EF-SALMON-NO,"EF-SALMON-NO: Salmon mince block, frozen, Norway (Apetit sample data; partner_supplied)",12.0
+2025,scope3,cat01_purchased_goods,M141:SUP061,176.84043,EF-ARGENTINE-FO,"EF-ARGENTINE-FO: Greater argentine (silver smelt) mince, MSC, frozen, Faroe Islands (Apetit sample data; partner_supplied)",12.0
+2025,scope3,cat01_purchased_goods,M141:SUP062,247.40469000000002,EF-ARGENTINE-FO,"EF-ARGENTINE-FO: Greater argentine (silver smelt) mince, MSC, frozen, Faroe Islands (Apetit sample data; partner_supplied)",12.0
+2025,scope3,cat01_purchased_goods,M141:SUP063,145.14829194000004,supplier PCF (PACT),supplier PCF (PACT),12.0
+2025,scope3,cat01_purchased_goods,M142:SUP064,17.341395000000002,EF-LOCALFISH-FI,"EF-LOCALFISH-FI: Local lake fish (roach/perch), Finland (Luke / Finnish LCA studies; calibrated_synthetic)",12.0
+2025,scope3,cat01_purchased_goods,M142:SUP065,15.802395,EF-LOCALFISH-FI,"EF-LOCALFISH-FI: Local lake fish (roach/perch), Finland (Luke / Finnish LCA studies; calibrated_synthetic)",12.0
+2025,scope3,cat01_purchased_goods,M150:SUP066,637.83099,EF-PET-PREF,"EF-PET-PREF: PET preforms/bottles, virgin (PlasticsEurope eco-profile style; calibrated_synthetic)",12.0
+2025,scope3,cat01_purchased_goods,M150:SUP067,602.3392200000001,EF-PET-PREF,"EF-PET-PREF: PET preforms/bottles, virgin (PlasticsEurope eco-profile style; calibrated_synthetic)",12.0
+2025,scope3,cat01_purchased_goods,M150:SUP068,1246.7536354,supplier PCF (PACT),supplier PCF (PACT),12.0
+2025,scope3,cat01_purchased_goods,M151:SUP069,172.96545,EF-HDPE-CAP,EF-HDPE-CAP: HDPE caps (PlasticsEurope eco-profile style; calibrated_synthetic),12.0
+2025,scope3,cat01_purchased_goods,M152:SUP070,1771.5040250000002,EF-PE-FILM,EF-PE-FILM: PE/PP packaging film (PlasticsEurope eco-profile style; calibrated_synthetic),12.0
+2025,scope3,cat01_purchased_goods,M152:SUP071,1260.1491950000002,EF-PE-FILM,EF-PE-FILM: PE/PP packaging film (PlasticsEurope eco-profile style; calibrated_synthetic),12.0
+2025,scope3,cat01_purchased_goods,M153:SUP072,3807.60526,EF-BOARD,EF-BOARD: Corrugated board / folding carton (FEFCO / CEPI style; calibrated_synthetic),12.0
+2025,scope3,cat01_purchased_goods,M154:SUP073,144.47328,EF-LABEL,EF-LABEL: Paper labels (CEPI style; calibrated_synthetic),12.0
+2025,scope3,cat01_purchased_goods,M160:SUP074,440.81037000000003,EF-BLEACH-EARTH,EF-BLEACH-EARTH: Bleaching earth (oil refining) (generic LCA; calibrated_synthetic),12.0
+2025,scope3,cat01_purchased_goods,M161:SUP075,274.05237999999997,EF-HEXANE,EF-HEXANE: Hexane (extraction solvent make-up) (generic LCA; calibrated_synthetic),12.0
+2025,scope3,cat01_purchased_goods,M162:SUP076,274.74964,EF-CHEM-MISC,"EF-CHEM-MISC: Process chemicals (acids, caustic, cleaning) (generic LCA; calibrated_synthetic)",12.0
+2025,scope3,cat01_purchased_goods,M162:SUP077,183.15011,EF-CHEM-MISC,"EF-CHEM-MISC: Process chemicals (acids, caustic, cleaning) (generic LCA; calibrated_synthetic)",12.0
+2025,scope3,cat01_purchased_goods,M163:SUP078,26.932115000000003,EF-N2-GAS,EF-N2-GAS: Nitrogen gas (packaging) (generic LCA; calibrated_synthetic),12.0
+2025,scope3,cat01_purchased_goods,M163:SUP079,31.426149999999996,EF-N2-GAS,EF-N2-GAS: Nitrogen gas (packaging) (generic LCA; calibrated_synthetic),12.0
+2025,scope3,cat01_purchased_goods,M163:SUP080,42.623174999999996,EF-N2-GAS,EF-N2-GAS: Nitrogen gas (packaging) (generic LCA; calibrated_synthetic),12.0
+2025,scope3,cat01_purchased_goods,contract_farming:FI_SW:carrot,600.9618861636807,farm-specific footprint x delivered kg,farm-specific footprint x delivered kg,
+2025,scope3,cat01_purchased_goods,contract_farming:FI_SW:pea,6942.64441515778,farm-specific footprint x delivered kg,farm-specific footprint x delivered kg,
+2025,scope3,cat01_purchased_goods,contract_farming:FI_SW:potato,650.7646347071786,farm-specific footprint x delivered kg,farm-specific footprint x delivered kg,
+2025,scope3,cat01_purchased_goods,contract_farming:FI_SW:spinach,1715.6767505102393,farm-specific footprint x delivered kg,farm-specific footprint x delivered kg,
+2025,scope3,cat01_purchased_goods,contract_farming:FI_SW:turnip_rape,16815.391767936882,farm-specific footprint x delivered kg,farm-specific footprint x delivered kg,
+2025,scope3,cat01_purchased_services,M900,791.9142879614035,spend x EEIO,spend x EEIO,
+2025,scope3,cat01_purchased_services,M901,1105.0505392333334,spend x EEIO,spend x EEIO,
+2025,scope3,cat01_purchased_services,M902,252.34967840000002,spend x EEIO,spend x EEIO,
+2025,scope3,cat01_purchased_services,M903,456.96172396491227,spend x EEIO,spend x EEIO,
+2025,scope3,cat02_capital_goods,M950,2066.6141385,capex spend x EEIO,capex spend x EEIO,
+2025,scope3,cat02_capital_goods,M951,800.0,capex spend x EEIO,capex spend x EEIO,
+2025,scope3,cat03_fuel_energy,wtt:biogas,89.68541587982249,fuel MWh x WTT,fuel MWh x WTT,
+2025,scope3,cat03_fuel_energy,wtt:diesel,54.90045599940001,fuel MWh x WTT,fuel MWh x WTT,
+2025,scope3,cat03_fuel_energy,wtt:light_fuel_oil,140.30030560999998,fuel MWh x WTT,fuel MWh x WTT,
+2025,scope3,cat03_fuel_energy,wtt:lng,480.00124800000003,fuel MWh x WTT,fuel MWh x WTT,
+2025,scope3,cat03_fuel_energy,wtt:lpg,148.79989760000004,fuel MWh x WTT,fuel MWh x WTT,
+2025,scope3,cat03_fuel_energy,wtt:natural_gas,20.74,fuel MWh x WTT,fuel MWh x WTT,
+2025,scope3,cat03_fuel_energy,wtt:oilseed_sidestream,27.16801774461323,fuel MWh x WTT,fuel MWh x WTT,
+2025,scope3,cat03_fuel_energy,wtt:wood_chips,148.82856869125925,fuel MWh x WTT,fuel MWh x WTT,
+2025,scope3,cat03_fuel_energy,elec_upstream:S-BJU,1.86,MWh x upstream+T&D,MWh x upstream+T&D,
+2025,scope3,cat03_fuel_energy,elec_upstream:S-HQ,1.65,MWh x upstream+T&D,MWh x upstream+T&D,
+2025,scope3,cat03_fuel_energy,elec_upstream:S-KAN,137.499978,MWh x upstream+T&D,MWh x upstream+T&D,
+2025,scope3,cat03_fuel_energy,elec_upstream:S-PUD,24.2,MWh x upstream+T&D,MWh x upstream+T&D,
+2025,scope3,cat03_fuel_energy,elec_upstream:S-SAK,242.0,MWh x upstream+T&D,MWh x upstream+T&D,
+2025,scope3,cat04_upstream_transport,inbound:EF-TKM-ROPAX,401.67253199999993,tkm x WTW EF,tkm x WTW EF,
+2025,scope3,cat04_upstream_transport,inbound:EF-TKM-SHIP-BULK,571.19680163,tkm x WTW EF,tkm x WTW EF,
+2025,scope3,cat04_upstream_transport,inbound:EF-TKM-SHIP-REEFER,221.67301379999998,tkm x WTW EF,tkm x WTW EF,
+2025,scope3,cat04_upstream_transport,inbound:EF-TKM-TRUCK,2346.0746552399996,tkm x WTW EF,tkm x WTW EF,
+2025,scope3,cat04_upstream_transport,inbound:EF-TKM-TRUCK-REEFER,1179.4419839000002,tkm x WTW EF,tkm x WTW EF,
+2025,scope3,cat09_downstream_transport,outbound:EF-TKM-ROPAX,818.1071999999999,tkm x WTW EF,tkm x WTW EF,
+2025,scope3,cat09_downstream_transport,outbound:EF-TKM-TRUCK,1665.19453796,tkm x WTW EF,tkm x WTW EF,
+2025,scope3,cat09_downstream_transport,outbound:EF-TKM-TRUCK-REEFER,2242.8342493799996,tkm x WTW EF,tkm x WTW EF,
+2025,scope3,cat09_downstream_transport,frozen_warehousing,292.34058,pallet-days x EF,pallet-days x EF,
+2025,scope3,cat05_waste,S-KAN:mixed_waste,109.50680000000001,t x treatment EF,t x treatment EF,
+2025,scope3,cat05_waste,S-KAN:plastic_waste,232.43628500000003,t x treatment EF,t x treatment EF,
+2025,scope3,cat05_waste,S-KAN:spent_bleaching_earth,286.119548,t x treatment EF,t x treatment EF,
+2025,scope3,cat05_waste,S-PUD:food_waste,21.484800000000003,t x treatment EF,t x treatment EF,
+2025,scope3,cat05_waste,S-PUD:mixed_waste,93.1164,t x treatment EF,t x treatment EF,
+2025,scope3,cat05_waste,S-PUD:plastic_waste,123.603715,t x treatment EF,t x treatment EF,
+2025,scope3,cat05_waste,S-SAK:biowaste_mixed,88.55995949999999,t x treatment EF,t x treatment EF,
+2025,scope3,cat05_waste,S-SAK:cardboard,6.8040021,t x treatment EF,t x treatment EF,
+2025,scope3,cat05_waste,S-SAK:mixed_waste,353.563652,t x treatment EF,t x treatment EF,
+2025,scope3,cat05_waste,S-SAK:plastic_waste,640.9792849999999,t x treatment EF,t x treatment EF,
+2025,scope3,cat05_waste,S-SAK:vegetable_biowaste,399.167994,t x treatment EF,t x treatment EF,
+2025,scope3,cat05_waste,S-SAK:wwtp_sludge,345.43234049999995,t x treatment EF,t x treatment EF,
+2025,scope3,cat05_waste,wastewater_third_party,15.7122,m3 x EF,m3 x EF,
+2025,scope3,cat06_business_travel,flights,142.77689999999998,pkm x EF,pkm x EF,
+2025,scope3,cat06_business_travel,rail,1.0553,pkm x EF,pkm x EF,
+2025,scope3,cat06_business_travel,hotels,4.428,nights x EF,nights x EF,
+2025,scope3,cat07_employee_commuting,S-BJU,12.265409333333332,survey mean x headcount,survey mean x headcount,
+2025,scope3,cat07_employee_commuting,S-HQ,1.3490082666666667,survey mean x headcount,survey mean x headcount,
+2025,scope3,cat07_employee_commuting,S-KAN,51.9621336,survey mean x headcount,survey mean x headcount,
+2025,scope3,cat07_employee_commuting,S-PUD,49.518954000000015,survey mean x headcount,survey mean x headcount,
+2025,scope3,cat07_employee_commuting,S-SAK,209.73425635555554,survey mean x headcount,survey mean x headcount,
+2025,scope3,cat12_end_of_life,blackgrain_powder:EXPORT_EU,2.2597020074999996,packaging t x EoL EF,packaging t x EoL EF,
+2025,scope3,cat12_end_of_life,blackgrain_powder:FI,24.555711284999997,packaging t x EoL EF,packaging t x EoL EF,
+2025,scope3,cat12_end_of_life,blackgrain_powder:SE,1.6655522624999994,packaging t x EoL EF,packaging t x EoL EF,
+2025,scope3,cat11_use_of_sold_products,fish_products:EXPORT_EU,7.897353599999999,kWh x market grid,kWh x market grid,
+2025,scope3,cat12_end_of_life,fish_products:EXPORT_EU,1.2615360686499997,packaging t x EoL EF,packaging t x EoL EF,
+2025,scope3,cat11_use_of_sold_products,fish_products:FI,9.703249919999998,kWh x market grid,kWh x market grid,
+2025,scope3,cat12_end_of_life,fish_products:FI,13.711652354399998,packaging t x EoL EF,packaging t x EoL EF,
+2025,scope3,cat11_use_of_sold_products,fish_products:SE,0.30698496,kWh x market grid,kWh x market grid,
+2025,scope3,cat12_end_of_life,fish_products:SE,0.9399002756,packaging t x EoL EF,packaging t x EoL EF,
+2025,scope3,cat11_use_of_sold_products,frozen_pizza:EXPORT_EU,325.61570579999994,kWh x market grid,kWh x market grid,
+2025,scope3,cat12_end_of_life,frozen_pizza:EXPORT_EU,20.659076799899996,packaging t x EoL EF,packaging t x EoL EF,
+2025,scope3,cat11_use_of_sold_products,frozen_pizza:FI,401.79550345999996,kWh x market grid,kWh x market grid,
+2025,scope3,cat12_end_of_life,frozen_pizza:FI,225.50964735365,packaging t x EoL EF,packaging t x EoL EF,
+2025,scope3,cat11_use_of_sold_products,frozen_pizza:SE,12.643320599999997,kWh x market grid,kWh x market grid,
+2025,scope3,cat12_end_of_life,frozen_pizza:SE,15.37493562825,packaging t x EoL EF,packaging t x EoL EF,
+2025,scope3,cat11_use_of_sold_products,frozen_vegetables:EXPORT_EU,329.8470572,kWh x market grid,kWh x market grid,
+2025,scope3,cat12_end_of_life,frozen_vegetables:EXPORT_EU,59.043936163400005,packaging t x EoL EF,packaging t x EoL EF,
+2025,scope3,cat11_use_of_sold_products,frozen_vegetables:FI,398.7798425,kWh x market grid,kWh x market grid,
+2025,scope3,cat12_end_of_life,frozen_vegetables:FI,631.4665844562501,packaging t x EoL EF,packaging t x EoL EF,
+2025,scope3,cat11_use_of_sold_products,frozen_vegetables:SE,13.105310639999999,kWh x market grid,kWh x market grid,
+2025,scope3,cat12_end_of_life,frozen_vegetables:SE,44.9631364057,packaging t x EoL EF,packaging t x EoL EF,
+2025,scope3,cat12_end_of_life,rapeseed_meal_expeller:EXPORT_EU,0.0,packaging t x EoL EF,packaging t x EoL EF,
+2025,scope3,cat12_end_of_life,rapeseed_meal_expeller:FI,0.0,packaging t x EoL EF,packaging t x EoL EF,
+2025,scope3,cat12_end_of_life,rapeseed_meal_expeller:SE,0.0,packaging t x EoL EF,packaging t x EoL EF,
+2025,scope3,cat12_end_of_life,rapeseed_oil_bottled:EXPORT_EU,50.00442016799999,packaging t x EoL EF,packaging t x EoL EF,
+2025,scope3,cat12_end_of_life,rapeseed_oil_bottled:FI,522.569339295,packaging t x EoL EF,packaging t x EoL EF,
+2025,scope3,cat12_end_of_life,rapeseed_oil_bottled:SE,36.4177618385,packaging t x EoL EF,packaging t x EoL EF,
+2025,scope3,cat12_end_of_life,rapeseed_oil_bulk:EXPORT_EU,2.3845443441299996,packaging t x EoL EF,packaging t x EoL EF,
+2025,scope3,cat12_end_of_life,rapeseed_oil_bulk:FI,25.675019213069998,packaging t x EoL EF,packaging t x EoL EF,
+2025,scope3,cat12_end_of_life,rapeseed_oil_bulk:SE,1.7279469559799996,packaging t x EoL EF,packaging t x EoL EF,
+2025,scope3,cat11_use_of_sold_products,ready_meals_frozen:EXPORT_EU,129.50891519999996,kWh x market grid,kWh x market grid,
+2025,scope3,cat12_end_of_life,ready_meals_frozen:EXPORT_EU,22.568688105599996,packaging t x EoL EF,packaging t x EoL EF,
+2025,scope3,cat11_use_of_sold_products,ready_meals_frozen:FI,163.4720256,kWh x market grid,kWh x market grid,
+2025,scope3,cat12_end_of_life,ready_meals_frozen:FI,252.00234446399995,packaging t x EoL EF,packaging t x EoL EF,
+2025,scope3,cat11_use_of_sold_products,ready_meals_frozen:SE,5.057625600000001,kWh x market grid,kWh x market grid,
+2025,scope3,cat12_end_of_life,ready_meals_frozen:SE,16.892732921999997,packaging t x EoL EF,packaging t x EoL EF,

@@ -1,0 +1,31 @@
+{
+ "dev_in_sample": {
+  "score": 76.73,
+  "spearman": 0.4857,
+  "top5_overlap": 0.8,
+  "mae_log10_p": 0.0282,
+  "mae_log10_n": 0.0322
+ },
+ "dev_leave_one_out": {
+  "score": 73.51,
+  "spearman": 0.4857,
+  "top5_overlap": 0.8,
+  "mae_log10_p": 0.0339,
+  "mae_log10_n": 0.0387
+ },
+ "dev_baseline": {
+  "score": 12.0,
+  "spearman": 0.3714,
+  "top5_overlap": 0.8,
+  "mae_log10_p": 0.1489,
+  "mae_log10_n": 0.1763
+ },
+ "scale_p": 0.8924531279648236,
+ "scale_n": 15.713821019031354,
+ "se_n_factor": 0.7869452352904817,
+ "L_P": 400.0,
+ "L_N": 300.0,
+ "n_parcels": 2410,
+ "total_p_kg": 7575.48,
+ "total_n_kg": 90546.90000000001
+}

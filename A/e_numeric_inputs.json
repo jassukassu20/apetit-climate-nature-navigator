@@ -1,0 +1,98 @@
+{
+ "E01": {
+  "value": 2100.611,
+  "evidence": "lines_long.csv 2025 scope1 S-SAK:lng + S-SAK:lpg; fuel_deliveries (t) x NCV 13.5/12.8 MWh/t - stock change; EF 0.1991/0.2336 t/MWh"
+ },
+ "E02": {
+  "value": 60.9,
+  "evidence": "Registry GoOs (goo_registry_statement.csv; internal log goo:S-PUD:2025 vintage 2023 and goo:S-BJU:2025 4460 MWh rejected). Residual mix FI 0.406, SE 0.035; S-HQ uncovered (landlord contract)"
+ },
+ "E03": {
+  "value": 325.0,
+  "evidence": "lines_long.csv 2025 scope2_location S-KAN (electricity x FI grid 0.026)"
+ },
+ "E04": {
+  "value": 122743.03,
+  "evidence": "cat01 lines M102-M107 (rapeseed imports EE/LV/LT/SE/DK/PL); valid PCF else library EF; stale PCFs SUP022/SUP023_M107_2025 rejected"
+ },
+ "E05": {
+  "value": 74.098,
+  "evidence": "(M101-M107 lines + contract_farming:FI_SW:turnip_rape) / cat01 goods+services total 206,929 t"
+ },
+ "E06": {
+  "value": 69.762,
+  "evidence": "flag_split_2025.csv FLAG 162,186 t / S1+S2MB+S3 232,486 t (only cat 1 carries FLAG)"
+ },
+ "E07": {
+  "value": 59.023,
+  "evidence": "farm_footprints_2025.csv sum(tco2e_org)/sum(tco2e); organic share from soil map x calibrated recall 1.17"
+ },
+ "E08": {
+  "value": 27.0,
+  "evidence": "parcels.csv soil_class_soilmap x parcel_crop_history 2025 contract crops; farms with organic area/contract area >= 0.30 (soil map, ~88 % accurate)"
+ },
+ "E09": {
+  "value": 12038.881,
+  "evidence": "S-KAN 2025 wood_chips x 0.4032 + oilseed_sidestream x 0.45 t/MWh (+diesel bio share if any); gap-filled months included"
+ },
+ "E10": {
+  "value": 22000.0,
+  "evidence": "energy_meter_readings S-SAK 2025 electricity after corrections (corrections_log.csv)"
+ },
+ "E11": {
+  "value": 72.081,
+  "evidence": "S-SAK 2025: renewable fuels 4,077 MWh + GoO elec 22,000 / (fuels 14,177 + elec 22,000)"
+ },
+ "E12": {
+  "value": 42462.0,
+  "evidence": "water_balance.csv 2024: withdrawals excl. reused_water 879,726 - discharges incl. runoff 837,264"
+ },
+ "E13": {
+  "value": 747.672,
+  "evidence": "lines_long 2025 fugitive_refrigerants S-SAK:*; R717 GWP 0"
+ },
+ "E14": {
+  "value": 792.87,
+  "evidence": "cat04 lines inbound:EF-TKM-SHIP-BULK + SHIP-REEFER 2025, incl. imputed missing legs (corrections_log missing_leg)"
+ },
+ "E15": {
+  "value": 102.051,
+  "evidence": "ERP 2025 M130 soy protein isolate, receipts minus 122 returns, after corrections"
+ },
+ "E16": {
+  "value": 1.041,
+  "evidence": "farm_footprints_2025.csv pea: sum(tco2e)/sum(delivered kg), 119 farms; organic soils included"
+ },
+ "E17": {
+  "value": 2.43,
+  "evidence": "farm_footprints_2025.csv turnip_rape: sum(tco2e)/sum(delivered kg), 230 farms; organic soils included"
+ },
+ "E18": {
+  "value": 12.816,
+  "evidence": "Estimate: register pea area x survey yield (median for non-respondents): 7,114 t -> 8,025 t. ERP has no 2026 lines."
+ },
+ "E19": {
+  "value": -13.019,
+  "evidence": "foodhills_odlingsdata_se.csv levererad_mängd_ton: 16,829.9 t (2025) -> 14,638.8 t (2026)"
+ },
+ "E20": {
+  "value": 3159.231,
+  "evidence": "2025 S1+S2MB 4,474.8 t x (1 - 0.042 x 7)"
+ },
+ "E21": {
+  "value": 127786.589,
+  "evidence": "2025 FLAG 162,186.3 t x (1 - 0.0303 x 7)"
+ },
+ "E90": {
+  "value": 6399.913,
+  "evidence": "2024 scope1_total"
+ },
+ "E91": {
+  "value": 63.237,
+  "evidence": "2024 scope2_market_total"
+ },
+ "E92": {
+  "value": 172572.656,
+  "evidence": "2024 cat01 goods+services"
+ }
+}

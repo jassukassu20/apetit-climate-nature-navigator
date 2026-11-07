@@ -1,0 +1,78 @@
+{
+ "base": {
+  "reported_2025": {
+   "s1": 4413.9315289074,
+   "s2m": 60.900000000000006,
+   "s2l": 962.563948,
+   "s3": 228011.18159759665,
+   "flag": 162186.30457346575,
+   "s3_nonflag": 65824.8770241309
+  },
+  "adjusted_2025": {
+   "s1": 5757.9473889074,
+   "s2m": 60.900000000000006,
+   "s2l": 962.563948,
+   "s3": 232156.10664429463,
+   "flag": 164298.91224204376,
+   "s3_nonflag": 67857.1944022509
+  },
+  "recalc_2019": {
+   "s1": 2713.5699999999997,
+   "s2m": 21860.0,
+   "s3": 263333.6,
+   "note": "published 2019 (published_inventory_history.csv) - grain trade (2022 restatement 14586 t for Jan-May x 12/5 = 35006 t/yr, rough) + Foodhills 2019 growers (~4.2 kt) + Bjuv NG; FLAG split unavailable for 2019 -> weak base, not recommended"
+  }
+ },
+ "foodhills_adjustment": {
+  "s1": 1344.01586,
+  "s2m": 0.0,
+  "s3": 4144.925046698,
+  "flag": 2112.6076685780004,
+  "basis": "Bjuv NG 7,300 MWh/yr x 0.2009 t/MWh (lever L07 note) minus Dec-2025 actual; Bjuv electricity Dec x 12 (estimate, replace with Foodhills meters); SE pea growers 2025: foodhills_odlingsdata_se.csv (298 growers, 4973 ha, 16830 t) x METHODOLOGY \u00a75 (mineral soil assumed, SE diesel 2.45)"
+ },
+ "rates": {
+  "s12": 0.042,
+  "s3": 0.025,
+  "flag": 0.0303
+ },
+ "E20": 3159.2310594086243,
+ "E21": 127786.58937343367,
+ "E20_basis": "(S1 4413.9 + S2 market 60.9) x (1 - 0.042 x 7) \u2014 reported 2025, cleaned inventory",
+ "E21_basis": "FLAG 2025 162186.3 t (library flag_share x cat-1 lines + FLAG components of contract farming) x (1 - 0.0303 x 7)",
+ "flag_share_total": 0.6976174712291802,
+ "farm_flag_share": 0.850835369798128,
+ "scope3_category_shares": {
+  "cat01": 0.9075,
+  "cat09": 0.022,
+  "cat04": 0.0207,
+  "cat02": 0.0126,
+  "cat05": 0.0119,
+  "cat12": 0.0086,
+  "cat11": 0.0079,
+  "cat03": 0.0067,
+  "cat07": 0.0014,
+  "cat06": 0.0007
+ },
+ "cat1": 206929.43401155891,
+ "drivers": {
+  "sak_lng_lpg_t": 2100.61089237,
+  "r404a_t": 706.5523199999999,
+  "pud_s1": 606.94784256,
+  "pud_s2m": 0.0,
+  "kan_bio_mwh": 29332.76440597875,
+  "farm_t": 26725.43945447576,
+  "rap_import_t": 122743.02988960002,
+  "rap_all_t": 136515.3387920554,
+  "org_soil_t": 15774.050200000001,
+  "fert_mfg_t": 2192.56917
+ },
+ "scenarios": [
+  "net_zero_2050",
+  "below_2c",
+  "low_demand",
+  "delayed_transition",
+  "fragmented_world",
+  "ndcs",
+  "current_policies"
+ ]
+}

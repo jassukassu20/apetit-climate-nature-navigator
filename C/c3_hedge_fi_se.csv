@@ -1,0 +1,4 @@
+scenario,window,corr_FI_SE_sim,exp_cost_fi_only_eur,exp_cost_se_only_eur,exp_cost_two_regions_pooled_eur,exp_cost_two_regions_separate_eur,p90_fi_only_eur,p90_two_regions_pooled_eur
+historical,1991-2020,0.088,324403,202928,180500,236930,1069188,596613
+ssp245,2041-2060,-0.135,291203,91144,80616,147143,919955,292751
+ssp585,2041-2060,-0.26,270817,178448,125671,204303,723957,441034

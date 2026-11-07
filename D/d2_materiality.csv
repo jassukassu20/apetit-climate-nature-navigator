@@ -1,0 +1,36 @@
+material_id,name_en,group,origin,t_2025,kgco2e_per_kg,flag_share,tco2e,flag_tco2e,p_ghg,p_land,p_water,p_nutrients,p_pesticides,p_deforestation,p_biodiversity,eudr,sbtn_hic,pressure_index,materiality_score,rationale,rank
+M130,Soy protein isolate,protein,CN,112.6,5.0,0.7,563.0,394.1,1,3,3,3,2,3,2,False,True,0.8095238095238095,76.6,"SBTN High Impact Commodity; soy protein isolate (HS 3504) is NOT in EUDR Annex I, but soy is high-risk: do voluntary DCF due diligence; high water stress in CN; deforestation/conversion risk; receiving waters poor/nitrate-vulnerable",1
+M104,Rapeseed import Lithuania,oilseed,LT,22219.1,1.34,0.87,29773.6,25903.0,3,2,1,2,2,0,1,False,False,0.5238095238095238,75.6,"29,774 tCO2e (87% FLAG)",2
+M133,Cheese for pizza,dairy,FI,1301.8,9.2,0.88,11976.8,10539.6,2,3,0,2,1,2,1,False,True,0.5238095238095238,73.9,"SBTN High Impact Commodity; deforestation/conversion risk; 11,977 tCO2e (88% FLAG)",3
+M107,Rapeseed import Poland,oilseed,PL,8795.0,1.46,0.87,12840.8,11171.5,2,2,2,3,2,0,1,False,False,0.5714285714285714,73.4,"receiving waters poor/nitrate-vulnerable; 12,841 tCO2e (87% FLAG)",4
+M102,Rapeseed import Estonia,oilseed,EE,24996.5,1.31,0.86,32745.4,28161.0,3,2,0,1,2,0,1,False,False,0.42857142857142855,71.4,"32,745 tCO2e (86% FLAG)",5
+M103,Rapeseed import Latvia,oilseed,LV,21293.3,1.36,0.87,28958.9,25194.2,3,2,0,1,2,0,1,False,False,0.42857142857142855,70.6,"28,959 tCO2e (87% FLAG)",6
+M101,"Rapeseed, FI via grain traders",oilseed,FI,12143.4,1.22,0.86,14815.0,12740.9,2,2,0,2,2,0,1,False,False,0.42857142857142855,67.9,"14,815 tCO2e (86% FLAG)",7
+M106,Rapeseed import Denmark,oilseed,DK,6480.6,1.12,0.85,7258.2,6169.5,2,2,1,3,2,0,0,False,False,0.47619047619047616,67.1,"receiving waters poor/nitrate-vulnerable; 7,258 tCO2e (85% FLAG)",8
+M105,Rapeseed import Sweden,oilseed,SE,8795.0,1.05,0.84,9234.8,7757.2,2,2,1,1,2,0,1,False,False,0.42857142857142855,66.3,"9,235 tCO2e (84% FLAG)",9
+M100,"Rapeseed/turnip rape, FI contract growers",oilseed,FI,6829.7,1.12,0.6,7649.3,4589.6,2,2,0,2,2,0,1,False,False,0.42857142857142855,65.0,"7,649 tCO2e (60% FLAG)",10
+M126,"Vegetable mix components, imported",vegetable_bought,BE,3127.6,0.9,0.5,2814.9,1407.4,1,1,3,3,2,0,0,False,False,0.47619047619047616,63.5,high water stress in BE; receiving waters poor/nitrate-vulnerable,11
+M134,Cooked ham dices,meat,FI,301.8,9.8,0.8,2957.6,2366.1,1,3,0,2,1,2,1,False,True,0.47619047619047616,62.4,SBTN High Impact Commodity; deforestation/conversion risk,12
+M113,"Spinach, FI contract",vegetable_contract,FI,8750.2,0.09,0.6,787.5,472.5,1,1,0,2,2,0,1,False,False,0.3333333333333333,61.5,own contract parcels -> catchment-level D1 assessment,13
+M112,"Carrot, FI contract",vegetable_contract,FI,12369.6,0.04,0.6,494.8,296.9,0,1,0,2,2,0,1,False,False,0.2857142857142857,60.8,own contract parcels -> catchment-level D1 assessment,14
+M110,"Vining peas, FI contract",vegetable_contract,FI,6671.2,0.22,0.6,1467.7,880.6,1,1,0,2,2,0,1,False,False,0.3333333333333333,60.1,own contract parcels -> catchment-level D1 assessment,15
+M131,Tomato sauce (pizza),sauce,ES,850.5,2.5,0.4,2126.2,850.5,1,1,4,1,2,0,2,False,False,0.5238095238095238,59.5,high water stress in ES,16
+M111,"Potato, FI contract",vegetable_contract,FI,7055.8,0.07,0.6,493.9,296.3,0,1,0,2,2,0,1,False,False,0.2857142857142857,58.0,own contract parcels -> catchment-level D1 assessment,17
+M132,Milk powder 26 %,dairy,FI,101.4,8.1,0.85,821.6,698.3,1,3,0,2,1,2,1,False,True,0.47619047619047616,56.0,SBTN High Impact Commodity; deforestation/conversion risk,18
+M135,Wheat flour,cereal,FI,2679.7,0.62,0.78,1661.4,1295.9,1,2,0,2,1,0,1,False,False,0.3333333333333333,55.6,,19
+M125,"Broccoli florets, frozen",vegetable_bought,EC,566.0,1.3,0.5,735.8,367.9,1,1,1,1,2,1,3,False,False,0.47619047619047616,55.1,,20
+M124,"Onion dices pre-fried, frozen",vegetable_bought,EU,1083.7,0.9,0.45,975.3,438.9,1,1,1,1,2,1,1,False,False,0.38095238095238093,53.6,,21
+M122,"Cauliflower, frozen",vegetable_bought,BE,555.3,0.9,0.5,499.8,249.9,0,1,3,3,2,0,0,False,False,0.42857142857142855,52.6,high water stress in BE; receiving waters poor/nitrate-vulnerable,22
+M120,"Sweetcorn, frozen",vegetable_bought,HU,511.4,1.5,0.55,767.1,421.9,1,1,2,1,2,0,1,False,False,0.38095238095238093,49.9,,23
+M123,"Red pepper dices, frozen",vegetable_bought,PT,106.0,1.6,0.55,169.6,93.3,0,1,4,1,2,0,2,False,False,0.47619047619047616,46.9,high water stress in PT,24
+M121,"Chickpea, frozen",vegetable_bought,BE,91.1,1.6,0.6,145.7,87.4,0,1,3,3,2,0,0,False,False,0.42857142857142855,43.8,high water stress in BE; receiving waters poor/nitrate-vulnerable,25
+M137,Spices & seasonings,spice,GLO,143.7,3.8,0.65,546.1,355.0,1,1,1,1,1,1,1,False,False,0.3333333333333333,41.2,,26
+M126,"Vegetable mix components, imported",vegetable_bought,ES,31.8,0.9,0.5,28.6,14.3,0,1,4,1,2,0,2,False,False,0.47619047619047616,41.0,high water stress in ES,27
+M136,Sunflower oil,oil,HU,79.6,3.1,0.7,246.9,172.8,0,2,2,1,2,0,1,False,False,0.38095238095238093,40.7,,28
+M127,"Faba bean, Finland",legume,FI,253.1,0.4,0.8,101.3,81.0,0,1,0,2,1,0,1,False,False,0.23809523809523808,39.2,,29
+M138,Sugar,sugar,FI,60.4,0.55,0.6,33.2,19.9,0,1,0,2,2,0,1,False,False,0.2857142857142857,34.6,,30
+M126,"Vegetable mix components, imported",vegetable_bought,HU,16.0,0.9,0.5,14.4,7.2,0,1,2,1,2,0,1,False,False,0.3333333333333333,30.7,,31
+M140,"Salmon mince block, frozen",fish,NO,154.2,5.9,0.3,909.7,272.9,1,0,0,0,0,0,1,False,False,0.09523809523809523,29.7,,32
+M141,"Greater argentine mince MSC, frozen",fish,FO,152.5,3.9,0.0,594.6,0.0,1,0,0,0,0,0,1,False,False,0.09523809523809523,29.6,,33
+M142,"Roach/perch, local lake management fishing",fish,FI,34.9,0.95,0.0,33.1,0.0,0,0,0,2,0,0,1,False,False,0.14285714285714285,24.8,,34
+M114,"Vining peas, SE contract (Foodhills)",vegetable_contract,SE,0.0,0.22,0.6,0.0,0.0,0,1,1,1,2,0,1,False,False,0.2857142857142857,14.3,own contract parcels -> catchment-level D1 assessment,35

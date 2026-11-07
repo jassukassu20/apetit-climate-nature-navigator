@@ -1,0 +1,9 @@
+item,value,source
+contracted volume,"expected production, 2025 parcel mix, 1991-2020 climate, technology/management frozen at 2025",model
+price,contract_price_eur_t 2026 per crop (pea_SE for Sweden),contract_prices_and_replacement_premiums.csv
+premium,replacement_import_premium_frac 2026,contract_prices_and_replacement_premiums.csv
+veg import factor,1.107 kg/kg = EF-FROZ-CAUL-NL proxy + 1600 km reefer truck + 300 km Ro-Pax,emission_factor_library.csv
+rapeseed import factor,1.368 kg/kg = EF-RAP-LT + 700 km bulk ship + 200 km truck,emission_factor_library.csv
+domestic processing avoided,0.05 kg/kg for frozen veg (assumption),assumption
+irrigation cost,"EUR 250 /ha/yr annualised (equipment, water, energy) - assumption to be replaced by Apetit agronomy data; cf. lever L24",assumption / decarbonisation_levers.csv L24
+surplus,surplus years not monetised (conservative); shortfall of one region may be covered by the other in the hedge case,assumption
