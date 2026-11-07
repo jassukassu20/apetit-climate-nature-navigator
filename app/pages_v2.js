@@ -498,7 +498,7 @@ const NAVW=["where","how","show","take","go","find","open","enter","kus","kuhu",
 const isNavQ=q=>words(q).some(w=>NAVW.includes(w));
 const cropIn=q=>{const s=q.toLowerCase();return /pea|herne|hernes/.test(s)?"pea":/rape|rypsi|raps/.test(s)?"turnip_rape":/spinach|pinaatti|spinat/.test(s)?"spinach":/potato|peruna|kartul/.test(s)?"potato":/carrot|porkkana|porgand/.test(s)?"carrot":null;};
 function guideBubble(el,text){document.getElementById("guideb")?.remove();const r=el.getBoundingClientRect();const b=document.createElement("div");b.id="guideb";
-  b.style.cssText=`position:fixed;z-index:70;max-width:360px;background:#141f19;color:#edf0e7;border-radius:12px;padding:14px 16px;font-size:15px;line-height:1.45;box-shadow:0 14px 34px rgba(0,0,0,.25);left:${Math.max(12,Math.min(r.left,innerWidth-380))}px;top:${r.top>180?Math.max(70,r.top-12):Math.min(innerHeight-160,r.bottom+12)}px;transform:${r.top>180?'translateY(-100%)':'none'}`;
+  b.style.cssText=`position:absolute;z-index:70;max-width:360px;background:#141f19;color:#edf0e7;border-radius:12px;padding:14px 16px;font-size:15px;line-height:1.45;box-shadow:0 14px 34px rgba(0,0,0,.25);left:${scrollX+Math.max(12,Math.min(r.left,innerWidth-380))}px;top:${scrollY+(r.top>180?Math.max(70,r.top-12):Math.min(innerHeight-160,r.bottom+12))}px;transform:${r.top>180?'translateY(-100%)':'none'}`;
   b.innerHTML=`<div style="display:flex;gap:10px;align-items:flex-start"><span style="font-size:18px">👉</span><div>${esc(text)}</div></div><div style="text-align:right;margin-top:8px"><button class="btn sm" style="background:#f0bd16;border-color:#f0bd16;color:#141f19">Got it</button></div>`;
   b.querySelector("button").onclick=()=>b.remove();document.body.appendChild(b);setTimeout(()=>b.remove(),12000);}
 function goTo(id,params={},lang="en"){const P=PLACES[id];if(!P)return null;
@@ -511,7 +511,7 @@ function goTo(id,params={},lang="en"){const P=PLACES[id];if(!P)return null;
   if(P.page&&P.page!==current)go(P.page);else render();
   setTimeout(()=>{const el=document.getElementById(elId);if(!el)return;if(P.open&&el.tagName==="DETAILS")el.open=true;
     el.scrollIntoView({behavior:"smooth",block:"center"});el.classList.remove("flash");void el.offsetWidth;el.classList.add("flash");
-    if(P.focus){const f=document.getElementById(P.focus);if(f){if(params.crop&&document.getElementById("g_crop"))document.getElementById("g_crop").value=params.crop;setTimeout(()=>f.focus({preventScroll:true}),500);}}
+    if(P.focus){const fid=(id==="add-farm"&&/yield|sato|saak|harvest/i.test(params.q||""))?"g_yield":P.focus;const f=document.getElementById(fid);if(f){if(params.crop&&document.getElementById("g_crop"))document.getElementById("g_crop").value=params.crop;setTimeout(()=>f.focus({preventScroll:true}),500);}}
     setTimeout(()=>guideBubble(el,P.how[lang]||P.how.en),650);},120);
   audit("navigate",id,"");return {label:P.label[lang]||P.label.en,how:P.how[lang]||P.how.en};}
 TOOLS.push({name:"navigate",description:"Take the user to a place in this Navigator app, open it and highlight it, and show a short how-to bubble. Call it whenever the user asks where something is, where or how to enter information, or asks to be shown something. Destinations: "+Object.entries(PLACES).map(([k,p])=>`${k} = ${p.label.en}`).join("; ")+". Navigator has no separate soil-erosion model: erosion and nutrient losses to water are under 'nature'; drained peat emissions are under 'farms-peat'.",
