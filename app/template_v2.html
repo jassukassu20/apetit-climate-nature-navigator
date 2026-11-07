@@ -296,7 +296,7 @@ function render(){
   $("#foot").innerHTML=`<span>Synthetic data twin of Apetit (Since AI 2026 package v${esc(DATA.meta.package_version)}). Figures illustrate the method, not Apetit's real emissions.</span><span class="sp"></span><a onclick="go('method')">Method, scores &amp; audit log</a><a onclick="resetDemo()">Reset demo</a>`;
 }
 function resetDemo(){try{Object.keys(localStorage).filter(k=>k.startsWith('nav2:')).forEach(k=>localStorage.removeItem(k));}catch(e){}for(const k in MEM)delete MEM[k];$('#reviewer').value='';if(typeof chat!=='undefined')chat.length=0;toast('Demo reset to a clean start');go('brief');}
-function go(id){current=id;location.hash=id;render();window.scrollTo(0,0);}
+function go(id){document.getElementById('guideb')?.remove();current=id;location.hash=id;render();window.scrollTo(0,0);}
 window.addEventListener("hashchange",()=>{const h=location.hash.slice(1);if(h&&h!==current){current=h;render();}});
 </script>
 <script>
