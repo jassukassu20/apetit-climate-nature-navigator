@@ -224,7 +224,7 @@ page("add","Add data",()=>{const E=entries(),tAdd=E.reduce((a,e)=>a+(e.t||0),0);
   dz.addEventListener("drop",e=>{e.preventDefault();dz.classList.remove("over");e.dataTransfer.files[0]&&load(e.dataTransfer.files[0]);});}});
 
 // ============ FARMS & PEAT ============
-let fSel=FL[2].id, showRoute=true, planLang=store.get("planLang","fi");
+let fSel=FL[2].id, showRoute=true, planLang=store.get("planLang","en");
 function farmMap(){
   const feats=DATA.fi_geo.features, pts=feats.flatMap(f=>f.geometry.coordinates[0]).concat(DATA.mapfarms.map(f=>[f.lon,f.lat]));
   const lx=Math.min(...pts.map(p=>p[0])),hx=Math.max(...pts.map(p=>p[0])),ly=Math.min(...pts.map(p=>p[1])),hy=Math.max(...pts.map(p=>p[1]));
@@ -429,7 +429,7 @@ const TOOLS=[
  {name:"get_data_errors",description:"2025 data errors found by the data-quality agent, with old and new value, reason, confidence, impact and the reviewer's decision. Optional issue_type filter.",inputSchema:{type:"object",properties:{issue_type:{type:"string"}}},execute:({issue_type})=>{const by={};DATA.cards.forEach(c=>by[c.type]=(by[c.type]||0)+1);return {counts:by,draft_check:DATA.dq.draft_check,errors:DATA.cards.filter(c=>!issue_type||c.type===issue_type).slice(0,20).map(c=>({...c,decision:dqDec()[c.key]||"pending"})),evidence:"A/corrections_log.csv; submissions/A1_issues_submission.csv"};}}];
 const SYS=`You are the Climate & Nature Navigator copilot for Apetit (Finnish food company: frozen vegetables, rapeseed oil, contract farmers in Finland and Sweden). The data is a synthetic twin (Since AI 2026 package); say so if the user may mistake it for real figures.
 Rules: 1) Use the tools for facts; never answer numbers from memory and never invent figures. 2) Cite evidence for claims as [evidence: ...] using the strings the tools return. 3) Follow GHG Protocol, SBTi (incl. FLAG), SBTN and NGFS logic; method changes and structural changes are never reductions. 4) If the tools have nothing relevant, say so and suggest asking an expert. 5) Be short and decision-oriented: the answer first, then 2–4 supporting points, then evidence. Plain text, no markdown headings. 6) Answer in the language of the question. 7) When the user asks where something is, or where or how to enter or find information, call the navigate tool, then explain in 1–3 short steps what to do there.`;
-const EX=["Where do I enter pea quantities?","Kus ma näen põllumuldade erosiooni?","Why is our pea footprint so much higher than the calculator says?","Which farms should our advisers visit first?","Which measures close the FLAG gap cheapest?","Is soy protein isolate in EUDR scope?","Mitä ilmastoriskit maksavat herneelle?"];
+const EX=["Where do I enter a farm's pea yield?","Where can I see soil erosion and nutrient losses?","Which farms should our advisers visit first?","Which measures close the FLAG gap cheapest?","Is soy protein isolate in EUDR scope?"];
 const md=s=>esc(s).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>");
 function trimSentence(t,n=700){if(t.length<=n)return t;const cut=t.slice(0,n),i=Math.max(cut.lastIndexOf(". "),cut.lastIndexOf(".\n"));return (i>200?cut.slice(0,i+1):cut)+" …";}
 function renderAsk(){const mode=SAMPLE?"claude":"retrieval";$("#aimode").innerHTML=mode==="claude"?'<span class="pill ok">Claude, live</span>':'<span class="pill wa" data-tip="No language model in this view; answers are the best matching evidence">evidence search</span>';
